@@ -1,0 +1,2914 @@
+{
+  "network_range": "192.168.181.0/24",
+  "timestamp": "2026-01-03T11:56:24.310943",
+  "hosts_scanned": 5,
+  "hosts": [
+    {
+      "target": "192.168.181.1",
+      "timestamp": "2026-01-03T11:52:31.683752",
+      "nmap": {
+        "services": [],
+        "os_guess": null,
+        "os_accuracy": null,
+        "os_cpe": null
+      },
+      "glpi": {},
+      "cves": {
+        "nmap_vulners": [],
+        "cti_software": [],
+        "cti_services": [],
+        "cti_os": [],
+        "cti_hardware": []
+      },
+        "summary": {
+          "total_unique_cves": 0,
+          "cves_by_source": {
+            "nmap_vulners": 0,
+            "cti_software": 0,
+            "cti_services": 0,
+            "cti_os": 0,
+            "cti_hardware": 0
+          },
+          "severity": {
+            "critical": 0,
+            "high": 0,
+            "medium": 0,
+            "low": 0
+          },
+          "services_count": 0,
+          "softwares_count": 0
+        }
+      },
+    {
+      "target": "192.168.181.2",
+      "timestamp": "2026-01-03T11:52:38.594747",
+      "nmap": {
+        "services": [
+          {
+            "port": "53",
+            "protocol": "tcp",
+            "service": "domain",
+            "product": "dnsmasq",
+            "version": "2.89",
+            "extrainfo": "",
+            "cpes": [
+              "cpe:/a:thekelleys:dnsmasq:2.89"
+            ]
+          }
+        ],
+        "os_guess": "VMware Player virtual NAT device",
+        "os_accuracy": "100",
+        "os_cpe": "cpe:/a:vmware:player"
+      },
+      "glpi": {},
+      "cves": {
+        "nmap_vulners": [
+          {
+            "source": "nmap/vulners",
+            "cve_id": "CVE-2023-50387",
+            "cvss": 7.5,
+            "type": "cve",
+            "is_exploit": false,
+            "cpe": "cpe:/a:thekelleys:dnsmasq:2.89",
+            "service": "domain",
+            "port": "53",
+            "product": "dnsmasq",
+            "version": "2.89"
+          },
+          {
+            "source": "nmap/vulners",
+            "cve_id": "CVE-2023-28450",
+            "cvss": 7.5,
+            "type": "cve",
+            "is_exploit": false,
+            "cpe": "cpe:/a:thekelleys:dnsmasq:2.89",
+            "service": "domain",
+            "port": "53",
+            "product": "dnsmasq",
+            "version": "2.89"
+          }
+        ],
+        "cti_software": [],
+        "cti_services": [],
+        "cti_os": [],
+        "cti_hardware": []
+      },
+      "summary": {
+        "total_unique_cves": 2,
+        "cves_by_source": {
+          "nmap_vulners": 2,
+          "cti_software": 0,
+          "cti_services": 0,
+          "cti_os": 0,
+          "cti_hardware": 0
+        },
+        "severity": {
+          "critical": 0,
+          "high": 2,
+          "medium": 0,
+          "low": 0
+        },
+        "services_count": 1,
+        "softwares_count": 0
+      }
+    },
+    {
+      "target": "192.168.181.141",
+      "timestamp": "2026-01-03T11:53:18.969237",
+      "nmap": {
+        "services": [
+          {
+            "port": "22",
+            "protocol": "tcp",
+            "service": "ssh",
+            "product": "OpenSSH",
+            "version": "8.7",
+            "extrainfo": "protocol 2.0",
+            "cpes": [
+              "cpe:/a:openbsd:openssh:8.7"
+            ]
+          },
+          {
+            "port": "5000",
+            "protocol": "tcp",
+            "service": "upnp",
+            "product": "",
+            "version": "",
+            "extrainfo": "",
+            "cpes": []
+          },
+          {
+            "port": "5555",
+            "protocol": "tcp",
+            "service": "http",
+            "product": "Apache httpd",
+            "version": "",
+            "extrainfo": "",
+            "cpes": [
+              "cpe:/a:apache:http_server"
+            ]
+          }
+        ],
+        "os_guess": "Linux 5.0 - 5.4",
+        "os_accuracy": "100",
+        "os_cpe": "cpe:/o:linux:linux_kernel:5"
+      },
+      "glpi": {},
+      "cves": {
+        "nmap_vulners": [
+          {
+            "source": "nmap/vulners",
+            "cve_id": "CVE-2023-38408",
+            "cvss": 9.8,
+            "type": "cve",
+            "is_exploit": false,
+            "cpe": "cpe:/a:openbsd:openssh:8.7",
+            "service": "ssh",
+            "port": "22",
+            "product": "OpenSSH",
+            "version": "8.7"
+          },
+          {
+            "source": "nmap/vulners",
+            "cve_id": "CVE-2024-6387",
+            "cvss": 8.1,
+            "type": "cve",
+            "is_exploit": false,
+            "cpe": "cpe:/a:openbsd:openssh:8.7",
+            "service": "ssh",
+            "port": "22",
+            "product": "OpenSSH",
+            "version": "8.7"
+          },
+          {
+            "source": "nmap/vulners",
+            "cve_id": "CVE-2021-41617",
+            "cvss": 7.0,
+            "type": "cve",
+            "is_exploit": false,
+            "cpe": "cpe:/a:openbsd:openssh:8.7",
+            "service": "ssh",
+            "port": "22",
+            "product": "OpenSSH",
+            "version": "8.7"
+          },
+          {
+            "source": "nmap/vulners",
+            "cve_id": "CVE-2025-26465",
+            "cvss": 6.8,
+            "type": "cve",
+            "is_exploit": false,
+            "cpe": "cpe:/a:openbsd:openssh:8.7",
+            "service": "ssh",
+            "port": "22",
+            "product": "OpenSSH",
+            "version": "8.7"
+          },
+          {
+            "source": "nmap/vulners",
+            "cve_id": "CVE-2023-51385",
+            "cvss": 6.5,
+            "type": "cve",
+            "is_exploit": false,
+            "cpe": "cpe:/a:openbsd:openssh:8.7",
+            "service": "ssh",
+            "port": "22",
+            "product": "OpenSSH",
+            "version": "8.7"
+          },
+          {
+            "source": "nmap/vulners",
+            "cve_id": "CVE-2023-48795",
+            "cvss": 5.9,
+            "type": "cve",
+            "is_exploit": false,
+            "cpe": "cpe:/a:openbsd:openssh:8.7",
+            "service": "ssh",
+            "port": "22",
+            "product": "OpenSSH",
+            "version": "8.7"
+          },
+          {
+            "source": "nmap/vulners",
+            "cve_id": "CVE-2016-20012",
+            "cvss": 5.3,
+            "type": "cve",
+            "is_exploit": false,
+            "cpe": "cpe:/a:openbsd:openssh:8.7",
+            "service": "ssh",
+            "port": "22",
+            "product": "OpenSSH",
+            "version": "8.7"
+          },
+          {
+            "source": "nmap/vulners",
+            "cve_id": "CVE-2025-32728",
+            "cvss": 4.3,
+            "type": "cve",
+            "is_exploit": false,
+            "cpe": "cpe:/a:openbsd:openssh:8.7",
+            "service": "ssh",
+            "port": "22",
+            "product": "OpenSSH",
+            "version": "8.7"
+          },
+          {
+            "source": "nmap/vulners",
+            "cve_id": "CVE-2021-36368",
+            "cvss": 3.7,
+            "type": "cve",
+            "is_exploit": false,
+            "cpe": "cpe:/a:openbsd:openssh:8.7",
+            "service": "ssh",
+            "port": "22",
+            "product": "OpenSSH",
+            "version": "8.7"
+          },
+          {
+            "source": "nmap/vulners",
+            "cve_id": "CVE-2025-61985",
+            "cvss": 3.6,
+            "type": "cve",
+            "is_exploit": false,
+            "cpe": "cpe:/a:openbsd:openssh:8.7",
+            "service": "ssh",
+            "port": "22",
+            "product": "OpenSSH",
+            "version": "8.7"
+          },
+          {
+            "source": "nmap/vulners",
+            "cve_id": "CVE-2025-61984",
+            "cvss": 3.6,
+            "type": "cve",
+            "is_exploit": false,
+            "cpe": "cpe:/a:openbsd:openssh:8.7",
+            "service": "ssh",
+            "port": "22",
+            "product": "OpenSSH",
+            "version": "8.7"
+          }
+        ],
+        "cti_software": [],
+        "cti_services": [
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2023-38408",
+            "service": "ssh",
+            "product": "openssh",
+            "version": "8.7",
+            "port": "22",
+            "cpe": "cpe:/a:openbsd:openssh:8.7",
+            "search_method": "nmap_cpe",
+            "description": "The PKCS#11 feature in ssh-agent in OpenSSH before 9.3p2 has an insufficiently trustworthy search path, leading to remote code execution if an agent is forwarded to an attacker-controlled system. (Cod"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2023-28531",
+            "service": "ssh",
+            "product": "openssh",
+            "version": "8.7",
+            "port": "22",
+            "cpe": "cpe:/a:openbsd:openssh:8.7",
+            "search_method": "nmap_cpe",
+            "description": "ssh-add in OpenSSH before 9.3 adds smartcard keys to ssh-agent without the intended per-hop destination constraints. The earliest affected version is 8.9."
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2016-1908",
+            "service": "ssh",
+            "product": "openssh",
+            "version": "8.7",
+            "port": "22",
+            "cpe": "cpe:/a:openbsd:openssh:8.7",
+            "search_method": "nmap_cpe",
+            "description": "The client in OpenSSH before 7.2 mishandles failed cookie generation for untrusted X11 forwarding and relies on the local X11 server for access-control decisions, which allows remote X11 clients to tr"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2002-0639",
+            "service": "ssh",
+            "product": "openssh",
+            "version": "8.7",
+            "port": "22",
+            "cpe": "cpe:/a:openbsd:openssh:8.7",
+            "search_method": "nmap_cpe",
+            "description": "Integer overflow in sshd in OpenSSH 2.9.9 through 3.3 allows remote attackers to execute arbitrary code during challenge response authentication (ChallengeResponseAuthentication) when OpenSSH is using"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2002-0083",
+            "service": "ssh",
+            "product": "openssh",
+            "version": "8.7",
+            "port": "22",
+            "cpe": "cpe:/a:openbsd:openssh:8.7",
+            "search_method": "nmap_cpe",
+            "description": "Off-by-one error in the channel code of OpenSSH 2.0 through 3.0.2 allows local users or remote malicious servers to gain privileges."
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2024-6387",
+            "service": "ssh",
+            "product": "openssh",
+            "version": "8.7",
+            "port": "22",
+            "cpe": "cpe:/a:openbsd:openssh:8.7",
+            "search_method": "nmap_cpe",
+            "description": "A security regression (CVE-2006-5051) was discovered in OpenSSH's server (sshd). There is a race condition which can lead sshd to handle some signals in an unsafe manner. An unauthenticated, remote at"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2016-0778",
+            "service": "ssh",
+            "product": "openssh",
+            "version": "8.7",
+            "port": "22",
+            "cpe": "cpe:/a:openbsd:openssh:8.7",
+            "search_method": "nmap_cpe",
+            "description": "The (1) roaming_read and (2) roaming_write functions in roaming_common.c in the client in OpenSSH 5.x, 6.x, and 7.x before 7.1p2, when certain proxy and forward options are enabled, do not properly ma"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2006-5051",
+            "service": "ssh",
+            "product": "openssh",
+            "version": "8.7",
+            "port": "22",
+            "cpe": "cpe:/a:openbsd:openssh:8.7",
+            "search_method": "nmap_cpe",
+            "description": "Signal handler race condition in OpenSSH before 4.4 allows remote attackers to cause a denial of service (crash), and possibly execute arbitrary code if GSSAPI authentication is enabled, via unspecifi"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2020-15778",
+            "service": "ssh",
+            "product": "openssh",
+            "version": "8.7",
+            "port": "22",
+            "cpe": "cpe:/a:openbsd:openssh:8.7",
+            "search_method": "nmap_cpe",
+            "description": "scp in OpenSSH through 8.3p1 allows command injection in the scp.c toremote function, as demonstrated by backtick characters in the destination argument. NOTE: the vendor reportedly has stated that th"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2019-16905",
+            "service": "ssh",
+            "product": "openssh",
+            "version": "8.7",
+            "port": "22",
+            "cpe": "cpe:/a:openbsd:openssh:8.7",
+            "search_method": "nmap_cpe",
+            "description": "OpenSSH 7.7 through 7.9 and 8.x before 8.1, when compiled with an experimental key type, has a pre-authentication integer overflow if a client or server is configured to use a crafted XMSS key. This l"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2016-10012",
+            "service": "ssh",
+            "product": "openssh",
+            "version": "8.7",
+            "port": "22",
+            "cpe": "cpe:/a:openbsd:openssh:8.7",
+            "search_method": "nmap_cpe",
+            "description": "The shared memory manager (associated with pre-authentication compression) in sshd in OpenSSH before 7.4 does not ensure that a bounds check is enforced by all compilers, which might allows local user"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2015-8325",
+            "service": "ssh",
+            "product": "openssh",
+            "version": "8.7",
+            "port": "22",
+            "cpe": "cpe:/a:openbsd:openssh:8.7",
+            "search_method": "nmap_cpe",
+            "description": "The do_setup_env function in session.c in sshd in OpenSSH through 7.2p2, when the UseLogin feature is enabled and PAM is configured to read .pam_environment files in user home directories, allows loca"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2020-12062",
+            "service": "ssh",
+            "product": "openssh",
+            "version": "8.7",
+            "port": "22",
+            "cpe": "cpe:/a:openbsd:openssh:8.7",
+            "search_method": "nmap_cpe",
+            "description": "The scp client in OpenSSH 8.2 incorrectly sends duplicate responses to the server upon a utimes system call failure, which allows a malicious unprivileged user on the remote server to overwrite arbitr"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2016-10708",
+            "service": "ssh",
+            "product": "openssh",
+            "version": "8.7",
+            "port": "22",
+            "cpe": "cpe:/a:openbsd:openssh:8.7",
+            "search_method": "nmap_cpe",
+            "description": "sshd in OpenSSH before 7.4 allows remote attackers to cause a denial of service (NULL pointer dereference and daemon crash) via an out-of-sequence NEWKEYS message, as demonstrated by Honggfuzz, relate"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2016-8858",
+            "service": "ssh",
+            "product": "openssh",
+            "version": "8.7",
+            "port": "22",
+            "cpe": "cpe:/a:openbsd:openssh:8.7",
+            "search_method": "nmap_cpe",
+            "description": "The kex_input_kexinit function in kex.c in OpenSSH 6.x and 7.x through 7.3 allows remote attackers to cause a denial of service (memory consumption) by sending many duplicate KEXINIT requests.  NOTE: "
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2016-6515",
+            "service": "ssh",
+            "product": "openssh",
+            "version": "8.7",
+            "port": "22",
+            "cpe": "cpe:/a:openbsd:openssh:8.7",
+            "search_method": "nmap_cpe",
+            "description": "The auth_password function in auth-passwd.c in sshd in OpenSSH before 7.3 does not limit password lengths for password authentication, which allows remote attackers to cause a denial of service (crypt"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2016-10009",
+            "service": "ssh",
+            "product": "openssh",
+            "version": "8.7",
+            "port": "22",
+            "cpe": "cpe:/a:openbsd:openssh:8.7",
+            "search_method": "nmap_cpe",
+            "description": "Untrusted search path vulnerability in ssh-agent.c in ssh-agent in OpenSSH before 7.4 allows remote attackers to execute arbitrary local PKCS#11 modules by leveraging control over a forwarded agent-so"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2021-28041",
+            "service": "ssh",
+            "product": "openssh",
+            "version": "8.7",
+            "port": "22",
+            "cpe": "cpe:/a:openbsd:openssh:8.7",
+            "search_method": "nmap_cpe",
+            "description": "ssh-agent in OpenSSH before 8.5 has a double free that may be relevant in a few less-common scenarios, such as unconstrained agent-socket access on a legacy operating system, or the forwarding of an a"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2023-51767",
+            "service": "ssh",
+            "product": "openssh",
+            "version": "8.7",
+            "port": "22",
+            "cpe": "cpe:/a:openbsd:openssh:8.7",
+            "search_method": "nmap_cpe",
+            "description": "OpenSSH through 9.6, when common types of DRAM are used, might allow row hammer attacks (for authentication bypass) because the integer value of authenticated in mm_answer_authpassword does not resist"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2021-41617",
+            "service": "ssh",
+            "product": "openssh",
+            "version": "8.7",
+            "port": "22",
+            "cpe": "cpe:/a:openbsd:openssh:8.7",
+            "search_method": "nmap_cpe",
+            "description": "sshd in OpenSSH 6.2 through 8.x before 8.8, when certain non-default configurations are used, allows privilege escalation because supplemental groups are not initialized as expected. Helper programs f"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2016-10010",
+            "service": "ssh",
+            "product": "openssh",
+            "version": "8.7",
+            "port": "22",
+            "cpe": "cpe:/a:openbsd:openssh:8.7",
+            "search_method": "nmap_cpe",
+            "description": "sshd in OpenSSH before 7.4, when privilege separation is not used, creates forwarded Unix-domain sockets as root, which might allow local users to gain privileges via unspecified vectors, related to s"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2019-6110",
+            "service": "ssh",
+            "product": "openssh",
+            "version": "8.7",
+            "port": "22",
+            "cpe": "cpe:/a:openbsd:openssh:8.7",
+            "search_method": "nmap_cpe",
+            "description": "In OpenSSH 7.9, due to accepting and displaying arbitrary stderr output from the server, a malicious server (or Man-in-The-Middle attacker) can manipulate the client output, for example to use ANSI co"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2019-6109",
+            "service": "ssh",
+            "product": "openssh",
+            "version": "8.7",
+            "port": "22",
+            "cpe": "cpe:/a:openbsd:openssh:8.7",
+            "search_method": "nmap_cpe",
+            "description": "An issue was discovered in OpenSSH 7.9. Due to missing character encoding in the progress display, a malicious server (or Man-in-The-Middle attacker) can employ crafted object names to manipulate the "
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2023-51385",
+            "service": "ssh",
+            "product": "openssh",
+            "version": "8.7",
+            "port": "22",
+            "cpe": "cpe:/a:openbsd:openssh:8.7",
+            "search_method": "nmap_cpe",
+            "description": "In ssh in OpenSSH before 9.6, OS command injection might occur if a user name or host name has shell metacharacters, and this name is referenced by an expansion token in certain situations. For exampl"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2023-25136",
+            "service": "ssh",
+            "product": "openssh",
+            "version": "8.7",
+            "port": "22",
+            "cpe": "cpe:/a:openbsd:openssh:8.7",
+            "search_method": "nmap_cpe",
+            "description": "OpenSSH server (sshd) 9.1 introduced a double-free vulnerability during options.kex_algorithms handling. This is fixed in OpenSSH 9.2. The double free can be leveraged, by an unauthenticated remote at"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2016-0777",
+            "service": "ssh",
+            "product": "openssh",
+            "version": "8.7",
+            "port": "22",
+            "cpe": "cpe:/a:openbsd:openssh:8.7",
+            "search_method": "nmap_cpe",
+            "description": "The resend_bytes function in roaming_common.c in the client in OpenSSH 5.x, 6.x, and 7.x before 7.1p2 allows remote servers to obtain sensitive information from process memory by requesting transmissi"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2016-3115",
+            "service": "ssh",
+            "product": "openssh",
+            "version": "8.7",
+            "port": "22",
+            "cpe": "cpe:/a:openbsd:openssh:8.7",
+            "search_method": "nmap_cpe",
+            "description": "Multiple CRLF injection vulnerabilities in session.c in sshd in OpenSSH before 7.2p2 allow remote authenticated users to bypass intended shell-command restrictions via crafted X11 forwarding data, rel"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2023-48795",
+            "service": "ssh",
+            "product": "openssh",
+            "version": "8.7",
+            "port": "22",
+            "cpe": "cpe:/a:openbsd:openssh:8.7",
+            "search_method": "nmap_cpe",
+            "description": "The SSH transport protocol with certain OpenSSH extensions, found in OpenSSH before 9.6 and other products, allows remote attackers to bypass integrity checks such that some packets are omitted (from "
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2020-14145",
+            "service": "ssh",
+            "product": "openssh",
+            "version": "8.7",
+            "port": "22",
+            "cpe": "cpe:/a:openbsd:openssh:8.7",
+            "search_method": "nmap_cpe",
+            "description": "The client side in OpenSSH 5.7 through 8.4 has an Observable Discrepancy leading to an information leak in the algorithm negotiation. This allows man-in-the-middle attackers to target initial connecti"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2019-6111",
+            "service": "ssh",
+            "product": "openssh",
+            "version": "8.7",
+            "port": "22",
+            "cpe": "cpe:/a:openbsd:openssh:8.7",
+            "search_method": "nmap_cpe",
+            "description": "An issue was discovered in OpenSSH 7.9. Due to the scp implementation being derived from 1983 rcp, the server chooses which files/directories are sent to the client. However, the scp client only perfo"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2021-29462",
+            "service": "upnp",
+            "product": "upnp",
+            "version": "",
+            "port": "5000",
+            "cpe": "cpe:2.3:a:upnp:upnp:*:*:*:*:*:*:*:*",
+            "search_method": "direct",
+            "description": "The Portable SDK for UPnP Devices is an SDK for development of UPnP device and control point applications. The server part of pupnp (libupnp) appears to be vulnerable to DNS rebinding attacks because "
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2018-15506",
+            "service": "upnp",
+            "product": "upnp",
+            "version": "",
+            "port": "5000",
+            "cpe": "cpe:2.3:a:upnp:upnp:*:*:*:*:*:*:*:*",
+            "search_method": "direct",
+            "description": "In BubbleUPnP 0.9 update 30, the XML parsing engine for SSDP/UPnP functionality is vulnerable to an XML External Entity Processing (XXE) attack. Remote, unauthenticated attackers can use this vulnerab"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2018-11576",
+            "service": "upnp",
+            "product": "upnp",
+            "version": "",
+            "port": "5000",
+            "cpe": "cpe:2.3:a:upnp:upnp:*:*:*:*:*:*:*:*",
+            "search_method": "direct",
+            "description": "ngiflib.c in MiniUPnP ngiflib 0.4 has a heap-based buffer over-read in GifIndexToTrueColor."
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2018-11575",
+            "service": "upnp",
+            "product": "upnp",
+            "version": "",
+            "port": "5000",
+            "cpe": "cpe:2.3:a:upnp:upnp:*:*:*:*:*:*:*:*",
+            "search_method": "direct",
+            "description": "ngiflib.c in MiniUPnP ngiflib 0.4 has a stack-based buffer overflow in DecodeGifImg."
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2017-8798",
+            "service": "upnp",
+            "product": "upnp",
+            "version": "",
+            "port": "5000",
+            "cpe": "cpe:2.3:a:upnp:upnp:*:*:*:*:*:*:*:*",
+            "search_method": "direct",
+            "description": "Integer signedness error in MiniUPnP MiniUPnPc v1.4.20101221 through v2.0 allows remote attackers to cause a denial of service or possibly have unspecified other impact."
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2016-8863",
+            "service": "upnp",
+            "product": "upnp",
+            "version": "",
+            "port": "5000",
+            "cpe": "cpe:2.3:a:upnp:upnp:*:*:*:*:*:*:*:*",
+            "search_method": "direct",
+            "description": "Heap-based buffer overflow in the create_url_list function in gena/gena_device.c in Portable UPnP SDK (aka libupnp) before 1.6.21 allows remote attackers to cause a denial of service (crash) or possib"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2021-36531",
+            "service": "upnp",
+            "product": "upnp",
+            "version": "",
+            "port": "5000",
+            "cpe": "cpe:2.3:a:upnp:upnp:*:*:*:*:*:*:*:*",
+            "search_method": "direct",
+            "description": "ngiflib 0.4 has a heap overflow in GetByte() at ngiflib.c:70 in NGIFLIB_NO_FILE mode, GetByte() reads memory buffer without checking the boundary."
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2021-36530",
+            "service": "upnp",
+            "product": "upnp",
+            "version": "",
+            "port": "5000",
+            "cpe": "cpe:2.3:a:upnp:upnp:*:*:*:*:*:*:*:*",
+            "search_method": "direct",
+            "description": "ngiflib 0.4 has a heap overflow in GetByteStr() at ngiflib.c:108 in NGIFLIB_NO_FILE mode, GetByteStr() copy memory buffer without checking the boundary."
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2019-20219",
+            "service": "upnp",
+            "product": "upnp",
+            "version": "",
+            "port": "5000",
+            "cpe": "cpe:2.3:a:upnp:upnp:*:*:*:*:*:*:*:*",
+            "search_method": "direct",
+            "description": "ngiflib 0.4 has a heap-based buffer over-read in GifIndexToTrueColor in ngiflib.c."
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2019-16347",
+            "service": "upnp",
+            "product": "upnp",
+            "version": "",
+            "port": "5000",
+            "cpe": "cpe:2.3:a:upnp:upnp:*:*:*:*:*:*:*:*",
+            "search_method": "direct",
+            "description": "ngiflib 0.4 has a heap-based buffer overflow in WritePixels() in ngiflib.c when called from DecodeGifImg, because deinterlacing for small pictures is mishandled."
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2024-38476",
+            "service": "http",
+            "product": "apache httpd",
+            "version": "",
+            "port": "5555",
+            "cpe": "cpe:/a:apache:http_server",
+            "search_method": "nmap_cpe",
+            "description": "Vulnerability in core of Apache HTTP Server 2.4.59 and earlier are vulnerably to information disclosure, SSRF or local script execution via backend applications whose response headers are malicious or"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2024-38474",
+            "service": "http",
+            "product": "apache httpd",
+            "version": "",
+            "port": "5555",
+            "cpe": "cpe:/a:apache:http_server",
+            "search_method": "nmap_cpe",
+            "description": "Substitution encoding issue in mod_rewrite in Apache HTTP Server 2.4.59 and earlier allows attacker to execute scripts in\ndirectories permitted by the configuration but not directly reachable by any U"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2023-25690",
+            "service": "http",
+            "product": "apache httpd",
+            "version": "",
+            "port": "5555",
+            "cpe": "cpe:/a:apache:http_server",
+            "search_method": "nmap_cpe",
+            "description": "Some mod_proxy configurations on Apache HTTP Server versions 2.4.0 through 2.4.55 allow a HTTP Request Smuggling attack.\n\n\n\n\nConfigurations are affected when mod_proxy is enabled along with some form "
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2022-31813",
+            "service": "http",
+            "product": "apache httpd",
+            "version": "",
+            "port": "5555",
+            "cpe": "cpe:/a:apache:http_server",
+            "search_method": "nmap_cpe",
+            "description": "Apache HTTP Server 2.4.53 and earlier may not send the X-Forwarded-* headers to the origin server based on client side Connection header hop-by-hop mechanism. This may be used to bypass IP based authe"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2022-23943",
+            "service": "http",
+            "product": "apache httpd",
+            "version": "",
+            "port": "5555",
+            "cpe": "cpe:/a:apache:http_server",
+            "search_method": "nmap_cpe",
+            "description": "Out-of-bounds Write vulnerability in mod_sed of Apache HTTP Server allows an attacker to overwrite heap memory with possibly attacker provided data. This issue affects Apache HTTP Server 2.4 version 2"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2022-22720",
+            "service": "http",
+            "product": "apache httpd",
+            "version": "",
+            "port": "5555",
+            "cpe": "cpe:/a:apache:http_server",
+            "search_method": "nmap_cpe",
+            "description": "Apache HTTP Server 2.4.52 and earlier fails to close inbound connection when errors are encountered discarding the request body, exposing the server to HTTP Request Smuggling"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2021-44790",
+            "service": "http",
+            "product": "apache httpd",
+            "version": "",
+            "port": "5555",
+            "cpe": "cpe:/a:apache:http_server",
+            "search_method": "nmap_cpe",
+            "description": "A carefully crafted request body can cause a buffer overflow in the mod_lua multipart parser (r:parsebody() called from Lua scripts). The Apache httpd team is not aware of an exploit for the vulnerabi"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2021-42013",
+            "service": "http",
+            "product": "apache httpd",
+            "version": "",
+            "port": "5555",
+            "cpe": "cpe:/a:apache:http_server",
+            "search_method": "nmap_cpe",
+            "description": "It was found that the fix for CVE-2021-41773 in Apache HTTP Server 2.4.50 was insufficient. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Ali"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2021-39275",
+            "service": "http",
+            "product": "apache httpd",
+            "version": "",
+            "port": "5555",
+            "cpe": "cpe:/a:apache:http_server",
+            "search_method": "nmap_cpe",
+            "description": "ap_escape_quotes() may write beyond the end of a buffer when given malicious input. No included modules pass untrusted data to these functions, but third-party / external modules may. This issue affec"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2021-26691",
+            "service": "http",
+            "product": "apache httpd",
+            "version": "",
+            "port": "5555",
+            "cpe": "cpe:/a:apache:http_server",
+            "search_method": "nmap_cpe",
+            "description": "In Apache HTTP Server versions 2.4.0 to 2.4.46 a specially crafted SessionHeader sent by an origin server could cause a heap overflow"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2020-11984",
+            "service": "http",
+            "product": "apache httpd",
+            "version": "",
+            "port": "5555",
+            "cpe": "cpe:/a:apache:http_server",
+            "search_method": "nmap_cpe",
+            "description": "Apache HTTP server 2.4.32 to 2.4.44 mod_proxy_uwsgi info disclosure and possible RCE"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2011-2767",
+            "service": "http",
+            "product": "apache httpd",
+            "version": "",
+            "port": "5555",
+            "cpe": "cpe:/a:apache:http_server",
+            "search_method": "nmap_cpe",
+            "description": "mod_perl 2.0 through 2.0.10 allows attackers to execute arbitrary Perl code by placing it in a user-owned .htaccess file, because (contrary to the documentation) there is no configuration option that "
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2018-1312",
+            "service": "http",
+            "product": "apache httpd",
+            "version": "",
+            "port": "5555",
+            "cpe": "cpe:/a:apache:http_server",
+            "search_method": "nmap_cpe",
+            "description": "In Apache httpd 2.2.0 to 2.4.29, when generating an HTTP Digest authentication challenge, the nonce sent to prevent reply attacks was not correctly generated using a pseudo-random seed. In a cluster o"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2017-7679",
+            "service": "http",
+            "product": "apache httpd",
+            "version": "",
+            "port": "5555",
+            "cpe": "cpe:/a:apache:http_server",
+            "search_method": "nmap_cpe",
+            "description": "In Apache httpd 2.2.x before 2.2.33 and 2.4.x before 2.4.26, mod_mime can read one byte past the end of a buffer when sending a malicious Content-Type response header."
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2017-3169",
+            "service": "http",
+            "product": "apache httpd",
+            "version": "",
+            "port": "5555",
+            "cpe": "cpe:/a:apache:http_server",
+            "search_method": "nmap_cpe",
+            "description": "In Apache httpd 2.2.x before 2.2.33 and 2.4.x before 2.4.26, mod_ssl may dereference a NULL pointer when third-party modules call ap_hook_process_connection() during an HTTP request to an HTTPS port."
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2017-3167",
+            "service": "http",
+            "product": "apache httpd",
+            "version": "",
+            "port": "5555",
+            "cpe": "cpe:/a:apache:http_server",
+            "search_method": "nmap_cpe",
+            "description": "In Apache httpd 2.2.x before 2.2.33 and 2.4.x before 2.4.26, use of the ap_get_basic_auth_pw() by third-party modules outside of the authentication phase may lead to authentication requirements being "
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2001-0766",
+            "service": "http",
+            "product": "apache httpd",
+            "version": "",
+            "port": "5555",
+            "cpe": "cpe:/a:apache:http_server",
+            "search_method": "nmap_cpe",
+            "description": "Apache on MacOS X Client 10.0.3 with the HFS+ file system allows remote attackers to bypass access restrictions via a URL that contains some characters whose case is not matched by Apache's filters."
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2022-28615",
+            "service": "http",
+            "product": "apache httpd",
+            "version": "",
+            "port": "5555",
+            "cpe": "cpe:/a:apache:http_server",
+            "search_method": "nmap_cpe",
+            "description": "Apache HTTP Server 2.4.53 and earlier may crash or disclose information due to a read beyond bounds in ap_strcmp_match() when provided with an extremely large input buffer. While no code distributed w"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2022-22721",
+            "service": "http",
+            "product": "apache httpd",
+            "version": "",
+            "port": "5555",
+            "cpe": "cpe:/a:apache:http_server",
+            "search_method": "nmap_cpe",
+            "description": "If LimitXMLRequestBody is set to allow request bodies larger than 350MB (defaults to 1M) on 32 bit systems an integer overflow happens which later causes out of bounds writes. This issue affects Apach"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2019-10082",
+            "service": "http",
+            "product": "apache httpd",
+            "version": "",
+            "port": "5555",
+            "cpe": "cpe:/a:apache:http_server",
+            "search_method": "nmap_cpe",
+            "description": "In Apache HTTP Server 2.4.18-2.4.39, using fuzzed network input, the http/2 session handling could be made to read memory after being freed, during connection shutdown."
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2017-9788",
+            "service": "http",
+            "product": "apache httpd",
+            "version": "",
+            "port": "5555",
+            "cpe": "cpe:/a:apache:http_server",
+            "search_method": "nmap_cpe",
+            "description": "In Apache httpd before 2.2.34 and 2.4.x before 2.4.27, the value placeholder in [Proxy-]Authorization headers of type 'Digest' was not initialized or reset before or between successive key=value assig"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2022-36760",
+            "service": "http",
+            "product": "apache httpd",
+            "version": "",
+            "port": "5555",
+            "cpe": "cpe:/a:apache:http_server",
+            "search_method": "nmap_cpe",
+            "description": "Inconsistent Interpretation of HTTP Requests ('HTTP Request Smuggling') vulnerability in mod_proxy_ajp of Apache HTTP Server allows an attacker to smuggle requests to the AJP server it forwards reques"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2021-40438",
+            "service": "http",
+            "product": "apache httpd",
+            "version": "",
+            "port": "5555",
+            "cpe": "cpe:/a:apache:http_server",
+            "search_method": "nmap_cpe",
+            "description": "A crafted request uri-path can cause mod_proxy to forward the request to an origin server choosen by the remote user. This issue affects Apache HTTP Server 2.4.48 and earlier."
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2021-44224",
+            "service": "http",
+            "product": "apache httpd",
+            "version": "",
+            "port": "5555",
+            "cpe": "cpe:/a:apache:http_server",
+            "search_method": "nmap_cpe",
+            "description": "A crafted URI sent to httpd configured as a forward proxy (ProxyRequests on) can cause a crash (NULL pointer dereference) or, for configurations mixing forward and reverse proxy declarations, can allo"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2017-15715",
+            "service": "http",
+            "product": "apache httpd",
+            "version": "",
+            "port": "5555",
+            "cpe": "cpe:/a:apache:http_server",
+            "search_method": "nmap_cpe",
+            "description": "In Apache httpd 2.4.0 to 2.4.29, the expression specified in <FilesMatch> could match '$' to a newline character in a malicious filename, rather than matching only the end of the filename. This could "
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2016-5387",
+            "service": "http",
+            "product": "apache httpd",
+            "version": "",
+            "port": "5555",
+            "cpe": "cpe:/a:apache:http_server",
+            "search_method": "nmap_cpe",
+            "description": "The Apache HTTP Server through 2.4.23 follows RFC 3875 section 4.1.18 and therefore does not protect applications from the presence of untrusted client data in the HTTP_PROXY environment variable, whi"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2019-0211",
+            "service": "http",
+            "product": "apache httpd",
+            "version": "",
+            "port": "5555",
+            "cpe": "cpe:/a:apache:http_server",
+            "search_method": "nmap_cpe",
+            "description": "In Apache HTTP Server 2.4 releases 2.4.17 to 2.4.38, with MPM event, worker or prefork, code executing in less-privileged child processes or threads (including scripts executed by an in-process script"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2004-0940",
+            "service": "http",
+            "product": "apache httpd",
+            "version": "",
+            "port": "5555",
+            "cpe": "cpe:/a:apache:http_server",
+            "search_method": "nmap_cpe",
+            "description": "Buffer overflow in the get_tag function in mod_include for Apache 1.3.x to 1.3.32 allows local users who can create SSI documents to execute arbitrary code as the apache user via SSI (XSSI) documents "
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2004-0747",
+            "service": "http",
+            "product": "apache httpd",
+            "version": "",
+            "port": "5555",
+            "cpe": "cpe:/a:apache:http_server",
+            "search_method": "nmap_cpe",
+            "description": "Buffer overflow in Apache 2.0.50 and earlier allows local users to gain apache privileges via a .htaccess file that causes the overflow during expansion of environment variables."
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2024-40898",
+            "service": "http",
+            "product": "apache httpd",
+            "version": "",
+            "port": "5555",
+            "cpe": "cpe:/a:apache:http_server",
+            "search_method": "nmap_cpe",
+            "description": "SSRF in Apache HTTP Server on Windows with mod_rewrite in server/vhost context, allows to potentially leak NTML hashes to a malicious server via SSRF and malicious requests.\n\nUsers are recommended to "
+          }
+        ],
+        "cti_os": [
+          {
+            "source": "cti/os",
+            "cve_id": "CVE-2024-42256",
+            "os": "Linux 5.0 - 5.4",
+            "version": "100",
+            "cpe": "cpe:2.3:o:linux:linux_5.0_-_5.4:100:*:*:*:*:*:*:*",
+            "description": "In the Linux kernel, the following vulnerability has been resolved:\n\ncifs: Fix server re-repick on subrequest retry\n\nWhen a subrequest is marked for needing retry, netfs will call\ncifs_prepare_write()"
+          },
+          {
+            "source": "cti/os",
+            "cve_id": "CVE-2024-42154",
+            "os": "Linux 5.0 - 5.4",
+            "version": "100",
+            "cpe": "cpe:2.3:o:linux:linux_5.0_-_5.4:100:*:*:*:*:*:*:*",
+            "description": "In the Linux kernel, the following vulnerability has been resolved:\n\ntcp_metrics: validate source addr length\n\nI don't see anything checking that TCP_METRICS_ATTR_SADDR_IPV4\nis at least 4 bytes long, "
+          },
+          {
+            "source": "cti/os",
+            "cve_id": "CVE-2023-38429",
+            "os": "Linux 5.0 - 5.4",
+            "version": "100",
+            "cpe": "cpe:2.3:o:linux:linux_5.0_-_5.4:100:*:*:*:*:*:*:*",
+            "description": "An issue was discovered in the Linux kernel before 6.3.4. fs/ksmbd/connection.c in ksmbd has an off-by-one error in memory allocation (because of ksmbd_smb2_check_message) that may lead to out-of-boun"
+          },
+          {
+            "source": "cti/os",
+            "cve_id": "CVE-2023-38427",
+            "os": "Linux 5.0 - 5.4",
+            "version": "100",
+            "cpe": "cpe:2.3:o:linux:linux_5.0_-_5.4:100:*:*:*:*:*:*:*",
+            "description": "An issue was discovered in the Linux kernel before 6.3.8. fs/smb/server/smb2pdu.c in ksmbd has an integer underflow and out-of-bounds read in deassemble_neg_contexts."
+          },
+          {
+            "source": "cti/os",
+            "cve_id": "CVE-2022-47939",
+            "os": "Linux 5.0 - 5.4",
+            "version": "100",
+            "cpe": "cpe:2.3:o:linux:linux_5.0_-_5.4:100:*:*:*:*:*:*:*",
+            "description": "An issue was discovered in ksmbd in the Linux kernel 5.15 through 5.19 before 5.19.2. fs/ksmbd/smb2pdu.c has a use-after-free and OOPS for SMB2_TREE_DISCONNECT."
+          },
+          {
+            "source": "cti/os",
+            "cve_id": "CVE-2021-3773",
+            "os": "Linux 5.0 - 5.4",
+            "version": "100",
+            "cpe": "cpe:2.3:o:linux:linux_5.0_-_5.4:100:*:*:*:*:*:*:*",
+            "description": "A flaw in netfilter could allow a network-connected attacker to infer openvpn connection endpoint information for further use in traditional network attacks."
+          },
+          {
+            "source": "cti/os",
+            "cve_id": "CVE-2021-43267",
+            "os": "Linux 5.0 - 5.4",
+            "version": "100",
+            "cpe": "cpe:2.3:o:linux:linux_5.0_-_5.4:100:*:*:*:*:*:*:*",
+            "description": "An issue was discovered in net/tipc/crypto.c in the Linux kernel before 5.14.16. The Transparent Inter-Process Communication (TIPC) functionality allows remote attackers to exploit insufficient valida"
+          },
+          {
+            "source": "cti/os",
+            "cve_id": "CVE-2019-14901",
+            "os": "Linux 5.0 - 5.4",
+            "version": "100",
+            "cpe": "cpe:2.3:o:linux:linux_5.0_-_5.4:100:*:*:*:*:*:*:*",
+            "description": "A heap overflow flaw was found in the Linux kernel, all versions 3.x.x and 4.x.x before 4.18.0, in Marvell WiFi chip driver. The vulnerability allows a remote attacker to cause a system crash, resulti"
+          },
+          {
+            "source": "cti/os",
+            "cve_id": "CVE-2019-14897",
+            "os": "Linux 5.0 - 5.4",
+            "version": "100",
+            "cpe": "cpe:2.3:o:linux:linux_5.0_-_5.4:100:*:*:*:*:*:*:*",
+            "description": "A stack-based buffer overflow was found in the Linux kernel, version kernel-2.6.32, in Marvell WiFi chip driver. An attacker is able to cause a denial of service (system crash) or, possibly execute ar"
+          },
+          {
+            "source": "cti/os",
+            "cve_id": "CVE-2019-14895",
+            "os": "Linux 5.0 - 5.4",
+            "version": "100",
+            "cpe": "cpe:2.3:o:linux:linux_5.0_-_5.4:100:*:*:*:*:*:*:*",
+            "description": "A heap-based buffer overflow was discovered in the Linux kernel, all versions 3.x.x and 4.x.x before 4.18.0, in Marvell WiFi chip driver. The flaw could occur when the station attempts a connection ne"
+          },
+          {
+            "source": "cti/os",
+            "cve_id": "CVE-2019-14896",
+            "os": "Linux 5.0 - 5.4",
+            "version": "100",
+            "cpe": "cpe:2.3:o:linux:linux_5.0_-_5.4:100:*:*:*:*:*:*:*",
+            "description": "A heap-based buffer overflow vulnerability was found in the Linux kernel, version kernel-2.6.32, in Marvell WiFi chip driver. A remote attacker could cause a denial of service (system crash) or, possi"
+          },
+          {
+            "source": "cti/os",
+            "cve_id": "CVE-2019-18814",
+            "os": "Linux 5.0 - 5.4",
+            "version": "100",
+            "cpe": "cpe:2.3:o:linux:linux_5.0_-_5.4:100:*:*:*:*:*:*:*",
+            "description": "An issue was discovered in the Linux kernel through 5.3.9. There is a use-after-free when aa_label_parse() fails in aa_audit_rule_init() in security/apparmor/audit.c."
+          },
+          {
+            "source": "cti/os",
+            "cve_id": "CVE-2019-18805",
+            "os": "Linux 5.0 - 5.4",
+            "version": "100",
+            "cpe": "cpe:2.3:o:linux:linux_5.0_-_5.4:100:*:*:*:*:*:*:*",
+            "description": "An issue was discovered in net/ipv4/sysctl_net_ipv4.c in the Linux kernel before 5.0.11. There is a net/ipv4/tcp_input.c signed integer overflow in tcp_ack_update_rtt() when userspace writes a very la"
+          },
+          {
+            "source": "cti/os",
+            "cve_id": "CVE-2019-17133",
+            "os": "Linux 5.0 - 5.4",
+            "version": "100",
+            "cpe": "cpe:2.3:o:linux:linux_5.0_-_5.4:100:*:*:*:*:*:*:*",
+            "description": "In the Linux kernel through 5.3.2, cfg80211_mgd_wext_giwessid in net/wireless/wext-sme.c does not reject a long SSID IE, leading to a Buffer Overflow."
+          },
+          {
+            "source": "cti/os",
+            "cve_id": "CVE-2019-16746",
+            "os": "Linux 5.0 - 5.4",
+            "version": "100",
+            "cpe": "cpe:2.3:o:linux:linux_5.0_-_5.4:100:*:*:*:*:*:*:*",
+            "description": "An issue was discovered in net/wireless/nl80211.c in the Linux kernel through 5.2.17. It does not check the length of variable elements in a beacon head, leading to a buffer overflow."
+          },
+          {
+            "source": "cti/os",
+            "cve_id": "CVE-2019-15505",
+            "os": "Linux 5.0 - 5.4",
+            "version": "100",
+            "cpe": "cpe:2.3:o:linux:linux_5.0_-_5.4:100:*:*:*:*:*:*:*",
+            "description": "drivers/media/usb/dvb-usb/technisat-usb2.c in the Linux kernel through 5.2.9 has an out-of-bounds read via crafted USB device traffic (which may be remote via usbip or usbredir)."
+          },
+          {
+            "source": "cti/os",
+            "cve_id": "CVE-2019-15504",
+            "os": "Linux 5.0 - 5.4",
+            "version": "100",
+            "cpe": "cpe:2.3:o:linux:linux_5.0_-_5.4:100:*:*:*:*:*:*:*",
+            "description": "drivers/net/wireless/rsi/rsi_91x_usb.c in the Linux kernel through 5.2.9 has a Double Free via crafted USB device traffic (which may be remote via usbip or usbredir)."
+          },
+          {
+            "source": "cti/os",
+            "cve_id": "CVE-2018-20961",
+            "os": "Linux 5.0 - 5.4",
+            "version": "100",
+            "cpe": "cpe:2.3:o:linux:linux_5.0_-_5.4:100:*:*:*:*:*:*:*",
+            "description": "In the Linux kernel before 4.16.4, a double free vulnerability in the f_midi_set_alt function of drivers/usb/gadget/function/f_midi.c in the f_midi driver may allow attackers to cause a denial of serv"
+          },
+          {
+            "source": "cti/os",
+            "cve_id": "CVE-2017-18379",
+            "os": "Linux 5.0 - 5.4",
+            "version": "100",
+            "cpe": "cpe:2.3:o:linux:linux_5.0_-_5.4:100:*:*:*:*:*:*:*",
+            "description": "In the Linux kernel before 4.14, an out of boundary access happened in drivers/nvme/target/fc.c."
+          },
+          {
+            "source": "cti/os",
+            "cve_id": "CVE-2016-10764",
+            "os": "Linux 5.0 - 5.4",
+            "version": "100",
+            "cpe": "cpe:2.3:o:linux:linux_5.0_-_5.4:100:*:*:*:*:*:*:*",
+            "description": "In the Linux kernel before 4.9.6, there is an off by one in the drivers/mtd/spi-nor/cadence-quadspi.c cqspi_setup_flash() function. There are CQSPI_MAX_CHIPSELECT elements in the ->f_pdata array so th"
+          },
+          {
+            "source": "cti/os",
+            "cve_id": "CVE-2012-6712",
+            "os": "Linux 5.0 - 5.4",
+            "version": "100",
+            "cpe": "cpe:2.3:o:linux:linux_5.0_-_5.4:100:*:*:*:*:*:*:*",
+            "description": "In the Linux kernel before 3.4, a buffer overflow occurs in drivers/net/wireless/iwlwifi/iwl-agn-sta.c, which will cause at least memory corruption."
+          },
+          {
+            "source": "cti/os",
+            "cve_id": "CVE-2011-5327",
+            "os": "Linux 5.0 - 5.4",
+            "version": "100",
+            "cpe": "cpe:2.3:o:linux:linux_5.0_-_5.4:100:*:*:*:*:*:*:*",
+            "description": "In the Linux kernel before 3.1, an off by one in the drivers/target/loopback/tcm_loop.c tcm_loop_make_naa_tpg() function could result in at least memory corruption."
+          },
+          {
+            "source": "cti/os",
+            "cve_id": "CVE-2007-6762",
+            "os": "Linux 5.0 - 5.4",
+            "version": "100",
+            "cpe": "cpe:2.3:o:linux:linux_5.0_-_5.4:100:*:*:*:*:*:*:*",
+            "description": "In the Linux kernel before 2.6.20, there is an off-by-one bug in net/netlabel/netlabel_cipso_v4.c where it is possible to overflow the doi_def->tags[] array."
+          },
+          {
+            "source": "cti/os",
+            "cve_id": "CVE-2019-10126",
+            "os": "Linux 5.0 - 5.4",
+            "version": "100",
+            "cpe": "cpe:2.3:o:linux:linux_5.0_-_5.4:100:*:*:*:*:*:*:*",
+            "description": "A flaw was found in the Linux kernel. A heap based buffer overflow in mwifiex_uap_parse_tail_ies function in drivers/net/wireless/marvell/mwifiex/ie.c might lead to memory corruption and possibly othe"
+          },
+          {
+            "source": "cti/os",
+            "cve_id": "CVE-2019-11683",
+            "os": "Linux 5.0 - 5.4",
+            "version": "100",
+            "cpe": "cpe:2.3:o:linux:linux_5.0_-_5.4:100:*:*:*:*:*:*:*",
+            "description": "udp_gro_receive_segment in net/ipv4/udp_offload.c in the Linux kernel 5.x before 5.0.13 allows remote attackers to cause a denial of service (slab-out-of-bounds memory corruption) or possibly have uns"
+          },
+          {
+            "source": "cti/os",
+            "cve_id": "CVE-2019-10125",
+            "os": "Linux 5.0 - 5.4",
+            "version": "100",
+            "cpe": "cpe:2.3:o:linux:linux_5.0_-_5.4:100:*:*:*:*:*:*:*",
+            "description": "An issue was discovered in aio_poll() in fs/aio.c in the Linux kernel through 5.0.4. A file may be released by aio_poll_wake() if an expected event is triggered immediately (e.g., by the close of a pa"
+          },
+          {
+            "source": "cti/os",
+            "cve_id": "CVE-2018-20784",
+            "os": "Linux 5.0 - 5.4",
+            "version": "100",
+            "cpe": "cpe:2.3:o:linux:linux_5.0_-_5.4:100:*:*:*:*:*:*:*",
+            "description": "In the Linux kernel before 4.20.2, kernel/sched/fair.c mishandles leaf cfs_rq's, which allows attackers to cause a denial of service (infinite loop in update_blocked_averages) or possibly have unspeci"
+          },
+          {
+            "source": "cti/os",
+            "cve_id": "CVE-2018-12714",
+            "os": "Linux 5.0 - 5.4",
+            "version": "100",
+            "cpe": "cpe:2.3:o:linux:linux_5.0_-_5.4:100:*:*:*:*:*:*:*",
+            "description": "An issue was discovered in the Linux kernel through 4.17.2. The filter parsing in kernel/trace/trace_events_filter.c could be called with no filter, which is an N=0 case when it expected at least one "
+          },
+          {
+            "source": "cti/os",
+            "cve_id": "CVE-2017-18174",
+            "os": "Linux 5.0 - 5.4",
+            "version": "100",
+            "cpe": "cpe:2.3:o:linux:linux_5.0_-_5.4:100:*:*:*:*:*:*:*",
+            "description": "In the Linux kernel before 4.7, the amd_gpio_remove function in drivers/pinctrl/pinctrl-amd.c calls the pinctrl_unregister function, leading to a double free."
+          },
+          {
+            "source": "cti/os",
+            "cve_id": "CVE-2018-5703",
+            "os": "Linux 5.0 - 5.4",
+            "version": "100",
+            "cpe": "cpe:2.3:o:linux:linux_5.0_-_5.4:100:*:*:*:*:*:*:*",
+            "description": "The tcp_v6_syn_recv_sock function in net/ipv6/tcp_ipv6.c in the Linux kernel through 4.14.11 allows attackers to cause a denial of service (slab out-of-bounds write) or possibly have unspecified other"
+          }
+        ],
+        "cti_hardware": []
+      },
+      "summary": {
+        "total_unique_cves": 106,
+        "cves_by_source": {
+          "nmap_vulners": 11,
+          "cti_software": 0,
+          "cti_services": 70,
+          "cti_os": 30,
+          "cti_hardware": 0
+        },
+        "severity": {
+          "critical": 1,
+          "high": 2,
+          "medium": 5,
+          "low": 3
+        },
+        "services_count": 3,
+        "softwares_count": 0
+      }
+    },
+    {
+      "target": "192.168.181.254",
+      "timestamp": "2026-01-03T11:56:07.734465",
+      "nmap": {
+        "services": [],
+        "os_guess": null,
+        "os_accuracy": null,
+        "os_cpe": null
+      },
+      "glpi": {},
+      "cves": {
+        "nmap_vulners": [],
+        "cti_software": [],
+        "cti_services": [],
+        "cti_os": [],
+        "cti_hardware": []
+      },
+      "summary": {
+        "total_unique_cves": 0,
+        "cves_by_source": {
+          "nmap_vulners": 0,
+          "cti_software": 0,
+          "cti_services": 0,
+          "cti_os": 0,
+          "cti_hardware": 0
+        },
+        "severity": {
+          "critical": 0,
+          "high": 0,
+          "medium": 0,
+          "low": 0
+        },
+        "services_count": 0,
+        "softwares_count": 0
+      }
+    },
+    {
+      "target": "192.168.181.135",
+      "timestamp": "2026-01-03T11:56:13.408708",
+      "nmap": {
+        "services": [
+          {
+            "port": "22",
+            "protocol": "tcp",
+            "service": "ssh",
+            "product": "OpenSSH",
+            "version": "9.6",
+            "extrainfo": "protocol 2.0",
+            "cpes": [
+              "cpe:/a:openbsd:openssh:9.6"
+            ]
+          },
+          {
+            "port": "80",
+            "protocol": "tcp",
+            "service": "http",
+            "product": "Apache httpd",
+            "version": "2.4.62",
+            "extrainfo": "(Fedora Linux)",
+            "cpes": [
+              "cpe:/a:apache:http_server:2.4.62"
+            ]
+          },
+          {
+            "port": "3306",
+            "protocol": "tcp",
+            "service": "mysql",
+            "product": "MariaDB",
+            "version": "",
+            "extrainfo": "unauthorized",
+            "cpes": [
+              "cpe:/a:mariadb:mariadb"
+            ]
+          }
+        ],
+        "os_guess": "Linux 2.6.32",
+        "os_accuracy": "100",
+        "os_cpe": "cpe:/o:linux:linux_kernel:2.6.32"
+      },
+      "glpi": {},
+      "cves": {
+        "nmap_vulners": [
+          {
+            "source": "nmap/vulners",
+            "cve_id": "CVE-2024-6387",
+            "cvss": 8.1,
+            "type": "cve",
+            "is_exploit": false,
+            "cpe": "cpe:/a:openbsd:openssh:9.6",
+            "service": "ssh",
+            "port": "22",
+            "product": "OpenSSH",
+            "version": "9.6"
+          },
+          {
+            "source": "nmap/vulners",
+            "cve_id": "CVE-2024-39894",
+            "cvss": 7.5,
+            "type": "cve",
+            "is_exploit": false,
+            "cpe": "cpe:/a:openbsd:openssh:9.6",
+            "service": "ssh",
+            "port": "22",
+            "product": "OpenSSH",
+            "version": "9.6"
+          },
+          {
+            "source": "nmap/vulners",
+            "cve_id": "CVE-2025-26465",
+            "cvss": 6.8,
+            "type": "cve",
+            "is_exploit": false,
+            "cpe": "cpe:/a:openbsd:openssh:9.6",
+            "service": "ssh",
+            "port": "22",
+            "product": "OpenSSH",
+            "version": "9.6"
+          },
+          {
+            "source": "nmap/vulners",
+            "cve_id": "CVE-2025-26466",
+            "cvss": 5.9,
+            "type": "cve",
+            "is_exploit": false,
+            "cpe": "cpe:/a:openbsd:openssh:9.6",
+            "service": "ssh",
+            "port": "22",
+            "product": "OpenSSH",
+            "version": "9.6"
+          },
+          {
+            "source": "nmap/vulners",
+            "cve_id": "CVE-2025-32728",
+            "cvss": 4.3,
+            "type": "cve",
+            "is_exploit": false,
+            "cpe": "cpe:/a:openbsd:openssh:9.6",
+            "service": "ssh",
+            "port": "22",
+            "product": "OpenSSH",
+            "version": "9.6"
+          },
+          {
+            "source": "nmap/vulners",
+            "cve_id": "CVE-2025-61985",
+            "cvss": 3.6,
+            "type": "cve",
+            "is_exploit": false,
+            "cpe": "cpe:/a:openbsd:openssh:9.6",
+            "service": "ssh",
+            "port": "22",
+            "product": "OpenSSH",
+            "version": "9.6"
+          },
+          {
+            "source": "nmap/vulners",
+            "cve_id": "CVE-2025-61984",
+            "cvss": 3.6,
+            "type": "cve",
+            "is_exploit": false,
+            "cpe": "cpe:/a:openbsd:openssh:9.6",
+            "service": "ssh",
+            "port": "22",
+            "product": "OpenSSH",
+            "version": "9.6"
+          },
+          {
+            "source": "nmap/vulners",
+            "cve_id": "CVE-2025-23048",
+            "cvss": 9.1,
+            "type": "cve",
+            "is_exploit": false,
+            "cpe": "cpe:/a:apache:http_server:2.4.62",
+            "service": "http",
+            "port": "80",
+            "product": "Apache httpd",
+            "version": "2.4.62"
+          },
+          {
+            "source": "nmap/vulners",
+            "cve_id": "CVE-2025-58098",
+            "cvss": 8.3,
+            "type": "cve",
+            "is_exploit": false,
+            "cpe": "cpe:/a:apache:http_server:2.4.62",
+            "service": "http",
+            "port": "80",
+            "product": "Apache httpd",
+            "version": "2.4.62"
+          },
+          {
+            "source": "nmap/vulners",
+            "cve_id": "CVE-2025-59775",
+            "cvss": 7.5,
+            "type": "cve",
+            "is_exploit": false,
+            "cpe": "cpe:/a:apache:http_server:2.4.62",
+            "service": "http",
+            "port": "80",
+            "product": "Apache httpd",
+            "version": "2.4.62"
+          },
+          {
+            "source": "nmap/vulners",
+            "cve_id": "CVE-2025-55753",
+            "cvss": 7.5,
+            "type": "cve",
+            "is_exploit": false,
+            "cpe": "cpe:/a:apache:http_server:2.4.62",
+            "service": "http",
+            "port": "80",
+            "product": "Apache httpd",
+            "version": "2.4.62"
+          },
+          {
+            "source": "nmap/vulners",
+            "cve_id": "CVE-2025-53020",
+            "cvss": 7.5,
+            "type": "cve",
+            "is_exploit": false,
+            "cpe": "cpe:/a:apache:http_server:2.4.62",
+            "service": "http",
+            "port": "80",
+            "product": "Apache httpd",
+            "version": "2.4.62"
+          },
+          {
+            "source": "nmap/vulners",
+            "cve_id": "CVE-2025-49630",
+            "cvss": 7.5,
+            "type": "cve",
+            "is_exploit": false,
+            "cpe": "cpe:/a:apache:http_server:2.4.62",
+            "service": "http",
+            "port": "80",
+            "product": "Apache httpd",
+            "version": "2.4.62"
+          },
+          {
+            "source": "nmap/vulners",
+            "cve_id": "CVE-2024-47252",
+            "cvss": 7.5,
+            "type": "cve",
+            "is_exploit": false,
+            "cpe": "cpe:/a:apache:http_server:2.4.62",
+            "service": "http",
+            "port": "80",
+            "product": "Apache httpd",
+            "version": "2.4.62"
+          },
+          {
+            "source": "nmap/vulners",
+            "cve_id": "CVE-2024-43394",
+            "cvss": 7.5,
+            "type": "cve",
+            "is_exploit": false,
+            "cpe": "cpe:/a:apache:http_server:2.4.62",
+            "service": "http",
+            "port": "80",
+            "product": "Apache httpd",
+            "version": "2.4.62"
+          },
+          {
+            "source": "nmap/vulners",
+            "cve_id": "CVE-2024-43204",
+            "cvss": 7.5,
+            "type": "cve",
+            "is_exploit": false,
+            "cpe": "cpe:/a:apache:http_server:2.4.62",
+            "service": "http",
+            "port": "80",
+            "product": "Apache httpd",
+            "version": "2.4.62"
+          },
+          {
+            "source": "nmap/vulners",
+            "cve_id": "CVE-2024-42516",
+            "cvss": 7.5,
+            "type": "cve",
+            "is_exploit": false,
+            "cpe": "cpe:/a:apache:http_server:2.4.62",
+            "service": "http",
+            "port": "80",
+            "product": "Apache httpd",
+            "version": "2.4.62"
+          },
+          {
+            "source": "nmap/vulners",
+            "cve_id": "CVE-2025-49812",
+            "cvss": 7.4,
+            "type": "cve",
+            "is_exploit": false,
+            "cpe": "cpe:/a:apache:http_server:2.4.62",
+            "service": "http",
+            "port": "80",
+            "product": "Apache httpd",
+            "version": "2.4.62"
+          },
+          {
+            "source": "nmap/vulners",
+            "cve_id": "CVE-2025-65082",
+            "cvss": 6.5,
+            "type": "cve",
+            "is_exploit": false,
+            "cpe": "cpe:/a:apache:http_server:2.4.62",
+            "service": "http",
+            "port": "80",
+            "product": "Apache httpd",
+            "version": "2.4.62"
+          },
+          {
+            "source": "nmap/vulners",
+            "cve_id": "CVE-2025-66200",
+            "cvss": 5.4,
+            "type": "cve",
+            "is_exploit": false,
+            "cpe": "cpe:/a:apache:http_server:2.4.62",
+            "service": "http",
+            "port": "80",
+            "product": "Apache httpd",
+            "version": "2.4.62"
+          }
+        ],
+        "cti_software": [],
+        "cti_services": [
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2023-38408",
+            "service": "ssh",
+            "product": "openssh",
+            "version": "9.6",
+            "port": "22",
+            "cpe": "cpe:/a:openbsd:openssh:9.6",
+            "search_method": "nmap_cpe",
+            "description": "The PKCS#11 feature in ssh-agent in OpenSSH before 9.3p2 has an insufficiently trustworthy search path, leading to remote code execution if an agent is forwarded to an attacker-controlled system. (Cod"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2023-28531",
+            "service": "ssh",
+            "product": "openssh",
+            "version": "9.6",
+            "port": "22",
+            "cpe": "cpe:/a:openbsd:openssh:9.6",
+            "search_method": "nmap_cpe",
+            "description": "ssh-add in OpenSSH before 9.3 adds smartcard keys to ssh-agent without the intended per-hop destination constraints. The earliest affected version is 8.9."
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2016-1908",
+            "service": "ssh",
+            "product": "openssh",
+            "version": "9.6",
+            "port": "22",
+            "cpe": "cpe:/a:openbsd:openssh:9.6",
+            "search_method": "nmap_cpe",
+            "description": "The client in OpenSSH before 7.2 mishandles failed cookie generation for untrusted X11 forwarding and relies on the local X11 server for access-control decisions, which allows remote X11 clients to tr"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2002-0639",
+            "service": "ssh",
+            "product": "openssh",
+            "version": "9.6",
+            "port": "22",
+            "cpe": "cpe:/a:openbsd:openssh:9.6",
+            "search_method": "nmap_cpe",
+            "description": "Integer overflow in sshd in OpenSSH 2.9.9 through 3.3 allows remote attackers to execute arbitrary code during challenge response authentication (ChallengeResponseAuthentication) when OpenSSH is using"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2002-0083",
+            "service": "ssh",
+            "product": "openssh",
+            "version": "9.6",
+            "port": "22",
+            "cpe": "cpe:/a:openbsd:openssh:9.6",
+            "search_method": "nmap_cpe",
+            "description": "Off-by-one error in the channel code of OpenSSH 2.0 through 3.0.2 allows local users or remote malicious servers to gain privileges."
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2024-6387",
+            "service": "ssh",
+            "product": "openssh",
+            "version": "9.6",
+            "port": "22",
+            "cpe": "cpe:/a:openbsd:openssh:9.6",
+            "search_method": "nmap_cpe",
+            "description": "A security regression (CVE-2006-5051) was discovered in OpenSSH's server (sshd). There is a race condition which can lead sshd to handle some signals in an unsafe manner. An unauthenticated, remote at"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2016-0778",
+            "service": "ssh",
+            "product": "openssh",
+            "version": "9.6",
+            "port": "22",
+            "cpe": "cpe:/a:openbsd:openssh:9.6",
+            "search_method": "nmap_cpe",
+            "description": "The (1) roaming_read and (2) roaming_write functions in roaming_common.c in the client in OpenSSH 5.x, 6.x, and 7.x before 7.1p2, when certain proxy and forward options are enabled, do not properly ma"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2006-5051",
+            "service": "ssh",
+            "product": "openssh",
+            "version": "9.6",
+            "port": "22",
+            "cpe": "cpe:/a:openbsd:openssh:9.6",
+            "search_method": "nmap_cpe",
+            "description": "Signal handler race condition in OpenSSH before 4.4 allows remote attackers to cause a denial of service (crash), and possibly execute arbitrary code if GSSAPI authentication is enabled, via unspecifi"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2020-15778",
+            "service": "ssh",
+            "product": "openssh",
+            "version": "9.6",
+            "port": "22",
+            "cpe": "cpe:/a:openbsd:openssh:9.6",
+            "search_method": "nmap_cpe",
+            "description": "scp in OpenSSH through 8.3p1 allows command injection in the scp.c toremote function, as demonstrated by backtick characters in the destination argument. NOTE: the vendor reportedly has stated that th"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2019-16905",
+            "service": "ssh",
+            "product": "openssh",
+            "version": "9.6",
+            "port": "22",
+            "cpe": "cpe:/a:openbsd:openssh:9.6",
+            "search_method": "nmap_cpe",
+            "description": "OpenSSH 7.7 through 7.9 and 8.x before 8.1, when compiled with an experimental key type, has a pre-authentication integer overflow if a client or server is configured to use a crafted XMSS key. This l"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2016-10012",
+            "service": "ssh",
+            "product": "openssh",
+            "version": "9.6",
+            "port": "22",
+            "cpe": "cpe:/a:openbsd:openssh:9.6",
+            "search_method": "nmap_cpe",
+            "description": "The shared memory manager (associated with pre-authentication compression) in sshd in OpenSSH before 7.4 does not ensure that a bounds check is enforced by all compilers, which might allows local user"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2015-8325",
+            "service": "ssh",
+            "product": "openssh",
+            "version": "9.6",
+            "port": "22",
+            "cpe": "cpe:/a:openbsd:openssh:9.6",
+            "search_method": "nmap_cpe",
+            "description": "The do_setup_env function in session.c in sshd in OpenSSH through 7.2p2, when the UseLogin feature is enabled and PAM is configured to read .pam_environment files in user home directories, allows loca"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2020-12062",
+            "service": "ssh",
+            "product": "openssh",
+            "version": "9.6",
+            "port": "22",
+            "cpe": "cpe:/a:openbsd:openssh:9.6",
+            "search_method": "nmap_cpe",
+            "description": "The scp client in OpenSSH 8.2 incorrectly sends duplicate responses to the server upon a utimes system call failure, which allows a malicious unprivileged user on the remote server to overwrite arbitr"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2016-10708",
+            "service": "ssh",
+            "product": "openssh",
+            "version": "9.6",
+            "port": "22",
+            "cpe": "cpe:/a:openbsd:openssh:9.6",
+            "search_method": "nmap_cpe",
+            "description": "sshd in OpenSSH before 7.4 allows remote attackers to cause a denial of service (NULL pointer dereference and daemon crash) via an out-of-sequence NEWKEYS message, as demonstrated by Honggfuzz, relate"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2016-8858",
+            "service": "ssh",
+            "product": "openssh",
+            "version": "9.6",
+            "port": "22",
+            "cpe": "cpe:/a:openbsd:openssh:9.6",
+            "search_method": "nmap_cpe",
+            "description": "The kex_input_kexinit function in kex.c in OpenSSH 6.x and 7.x through 7.3 allows remote attackers to cause a denial of service (memory consumption) by sending many duplicate KEXINIT requests.  NOTE: "
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2016-6515",
+            "service": "ssh",
+            "product": "openssh",
+            "version": "9.6",
+            "port": "22",
+            "cpe": "cpe:/a:openbsd:openssh:9.6",
+            "search_method": "nmap_cpe",
+            "description": "The auth_password function in auth-passwd.c in sshd in OpenSSH before 7.3 does not limit password lengths for password authentication, which allows remote attackers to cause a denial of service (crypt"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2016-10009",
+            "service": "ssh",
+            "product": "openssh",
+            "version": "9.6",
+            "port": "22",
+            "cpe": "cpe:/a:openbsd:openssh:9.6",
+            "search_method": "nmap_cpe",
+            "description": "Untrusted search path vulnerability in ssh-agent.c in ssh-agent in OpenSSH before 7.4 allows remote attackers to execute arbitrary local PKCS#11 modules by leveraging control over a forwarded agent-so"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2021-28041",
+            "service": "ssh",
+            "product": "openssh",
+            "version": "9.6",
+            "port": "22",
+            "cpe": "cpe:/a:openbsd:openssh:9.6",
+            "search_method": "nmap_cpe",
+            "description": "ssh-agent in OpenSSH before 8.5 has a double free that may be relevant in a few less-common scenarios, such as unconstrained agent-socket access on a legacy operating system, or the forwarding of an a"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2023-51767",
+            "service": "ssh",
+            "product": "openssh",
+            "version": "9.6",
+            "port": "22",
+            "cpe": "cpe:/a:openbsd:openssh:9.6",
+            "search_method": "nmap_cpe",
+            "description": "OpenSSH through 9.6, when common types of DRAM are used, might allow row hammer attacks (for authentication bypass) because the integer value of authenticated in mm_answer_authpassword does not resist"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2021-41617",
+            "service": "ssh",
+            "product": "openssh",
+            "version": "9.6",
+            "port": "22",
+            "cpe": "cpe:/a:openbsd:openssh:9.6",
+            "search_method": "nmap_cpe",
+            "description": "sshd in OpenSSH 6.2 through 8.x before 8.8, when certain non-default configurations are used, allows privilege escalation because supplemental groups are not initialized as expected. Helper programs f"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2016-10010",
+            "service": "ssh",
+            "product": "openssh",
+            "version": "9.6",
+            "port": "22",
+            "cpe": "cpe:/a:openbsd:openssh:9.6",
+            "search_method": "nmap_cpe",
+            "description": "sshd in OpenSSH before 7.4, when privilege separation is not used, creates forwarded Unix-domain sockets as root, which might allow local users to gain privileges via unspecified vectors, related to s"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2019-6110",
+            "service": "ssh",
+            "product": "openssh",
+            "version": "9.6",
+            "port": "22",
+            "cpe": "cpe:/a:openbsd:openssh:9.6",
+            "search_method": "nmap_cpe",
+            "description": "In OpenSSH 7.9, due to accepting and displaying arbitrary stderr output from the server, a malicious server (or Man-in-The-Middle attacker) can manipulate the client output, for example to use ANSI co"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2019-6109",
+            "service": "ssh",
+            "product": "openssh",
+            "version": "9.6",
+            "port": "22",
+            "cpe": "cpe:/a:openbsd:openssh:9.6",
+            "search_method": "nmap_cpe",
+            "description": "An issue was discovered in OpenSSH 7.9. Due to missing character encoding in the progress display, a malicious server (or Man-in-The-Middle attacker) can employ crafted object names to manipulate the "
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2023-51385",
+            "service": "ssh",
+            "product": "openssh",
+            "version": "9.6",
+            "port": "22",
+            "cpe": "cpe:/a:openbsd:openssh:9.6",
+            "search_method": "nmap_cpe",
+            "description": "In ssh in OpenSSH before 9.6, OS command injection might occur if a user name or host name has shell metacharacters, and this name is referenced by an expansion token in certain situations. For exampl"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2023-25136",
+            "service": "ssh",
+            "product": "openssh",
+            "version": "9.6",
+            "port": "22",
+            "cpe": "cpe:/a:openbsd:openssh:9.6",
+            "search_method": "nmap_cpe",
+            "description": "OpenSSH server (sshd) 9.1 introduced a double-free vulnerability during options.kex_algorithms handling. This is fixed in OpenSSH 9.2. The double free can be leveraged, by an unauthenticated remote at"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2016-0777",
+            "service": "ssh",
+            "product": "openssh",
+            "version": "9.6",
+            "port": "22",
+            "cpe": "cpe:/a:openbsd:openssh:9.6",
+            "search_method": "nmap_cpe",
+            "description": "The resend_bytes function in roaming_common.c in the client in OpenSSH 5.x, 6.x, and 7.x before 7.1p2 allows remote servers to obtain sensitive information from process memory by requesting transmissi"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2016-3115",
+            "service": "ssh",
+            "product": "openssh",
+            "version": "9.6",
+            "port": "22",
+            "cpe": "cpe:/a:openbsd:openssh:9.6",
+            "search_method": "nmap_cpe",
+            "description": "Multiple CRLF injection vulnerabilities in session.c in sshd in OpenSSH before 7.2p2 allow remote authenticated users to bypass intended shell-command restrictions via crafted X11 forwarding data, rel"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2023-48795",
+            "service": "ssh",
+            "product": "openssh",
+            "version": "9.6",
+            "port": "22",
+            "cpe": "cpe:/a:openbsd:openssh:9.6",
+            "search_method": "nmap_cpe",
+            "description": "The SSH transport protocol with certain OpenSSH extensions, found in OpenSSH before 9.6 and other products, allows remote attackers to bypass integrity checks such that some packets are omitted (from "
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2020-14145",
+            "service": "ssh",
+            "product": "openssh",
+            "version": "9.6",
+            "port": "22",
+            "cpe": "cpe:/a:openbsd:openssh:9.6",
+            "search_method": "nmap_cpe",
+            "description": "The client side in OpenSSH 5.7 through 8.4 has an Observable Discrepancy leading to an information leak in the algorithm negotiation. This allows man-in-the-middle attackers to target initial connecti"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2019-6111",
+            "service": "ssh",
+            "product": "openssh",
+            "version": "9.6",
+            "port": "22",
+            "cpe": "cpe:/a:openbsd:openssh:9.6",
+            "search_method": "nmap_cpe",
+            "description": "An issue was discovered in OpenSSH 7.9. Due to the scp implementation being derived from 1983 rcp, the server chooses which files/directories are sent to the client. However, the scp client only perfo"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2024-38476",
+            "service": "http",
+            "product": "apache httpd",
+            "version": "2.4.62",
+            "port": "80",
+            "cpe": "cpe:/a:apache:http_server:2.4.62",
+            "search_method": "nmap_cpe",
+            "description": "Vulnerability in core of Apache HTTP Server 2.4.59 and earlier are vulnerably to information disclosure, SSRF or local script execution via backend applications whose response headers are malicious or"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2024-38474",
+            "service": "http",
+            "product": "apache httpd",
+            "version": "2.4.62",
+            "port": "80",
+            "cpe": "cpe:/a:apache:http_server:2.4.62",
+            "search_method": "nmap_cpe",
+            "description": "Substitution encoding issue in mod_rewrite in Apache HTTP Server 2.4.59 and earlier allows attacker to execute scripts in\ndirectories permitted by the configuration but not directly reachable by any U"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2023-25690",
+            "service": "http",
+            "product": "apache httpd",
+            "version": "2.4.62",
+            "port": "80",
+            "cpe": "cpe:/a:apache:http_server:2.4.62",
+            "search_method": "nmap_cpe",
+            "description": "Some mod_proxy configurations on Apache HTTP Server versions 2.4.0 through 2.4.55 allow a HTTP Request Smuggling attack.\n\n\n\n\nConfigurations are affected when mod_proxy is enabled along with some form "
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2022-31813",
+            "service": "http",
+            "product": "apache httpd",
+            "version": "2.4.62",
+            "port": "80",
+            "cpe": "cpe:/a:apache:http_server:2.4.62",
+            "search_method": "nmap_cpe",
+            "description": "Apache HTTP Server 2.4.53 and earlier may not send the X-Forwarded-* headers to the origin server based on client side Connection header hop-by-hop mechanism. This may be used to bypass IP based authe"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2022-23943",
+            "service": "http",
+            "product": "apache httpd",
+            "version": "2.4.62",
+            "port": "80",
+            "cpe": "cpe:/a:apache:http_server:2.4.62",
+            "search_method": "nmap_cpe",
+            "description": "Out-of-bounds Write vulnerability in mod_sed of Apache HTTP Server allows an attacker to overwrite heap memory with possibly attacker provided data. This issue affects Apache HTTP Server 2.4 version 2"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2022-22720",
+            "service": "http",
+            "product": "apache httpd",
+            "version": "2.4.62",
+            "port": "80",
+            "cpe": "cpe:/a:apache:http_server:2.4.62",
+            "search_method": "nmap_cpe",
+            "description": "Apache HTTP Server 2.4.52 and earlier fails to close inbound connection when errors are encountered discarding the request body, exposing the server to HTTP Request Smuggling"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2021-44790",
+            "service": "http",
+            "product": "apache httpd",
+            "version": "2.4.62",
+            "port": "80",
+            "cpe": "cpe:/a:apache:http_server:2.4.62",
+            "search_method": "nmap_cpe",
+            "description": "A carefully crafted request body can cause a buffer overflow in the mod_lua multipart parser (r:parsebody() called from Lua scripts). The Apache httpd team is not aware of an exploit for the vulnerabi"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2021-42013",
+            "service": "http",
+            "product": "apache httpd",
+            "version": "2.4.62",
+            "port": "80",
+            "cpe": "cpe:/a:apache:http_server:2.4.62",
+            "search_method": "nmap_cpe",
+            "description": "It was found that the fix for CVE-2021-41773 in Apache HTTP Server 2.4.50 was insufficient. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Ali"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2021-39275",
+            "service": "http",
+            "product": "apache httpd",
+            "version": "2.4.62",
+            "port": "80",
+            "cpe": "cpe:/a:apache:http_server:2.4.62",
+            "search_method": "nmap_cpe",
+            "description": "ap_escape_quotes() may write beyond the end of a buffer when given malicious input. No included modules pass untrusted data to these functions, but third-party / external modules may. This issue affec"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2021-26691",
+            "service": "http",
+            "product": "apache httpd",
+            "version": "2.4.62",
+            "port": "80",
+            "cpe": "cpe:/a:apache:http_server:2.4.62",
+            "search_method": "nmap_cpe",
+            "description": "In Apache HTTP Server versions 2.4.0 to 2.4.46 a specially crafted SessionHeader sent by an origin server could cause a heap overflow"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2020-11984",
+            "service": "http",
+            "product": "apache httpd",
+            "version": "2.4.62",
+            "port": "80",
+            "cpe": "cpe:/a:apache:http_server:2.4.62",
+            "search_method": "nmap_cpe",
+            "description": "Apache HTTP server 2.4.32 to 2.4.44 mod_proxy_uwsgi info disclosure and possible RCE"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2011-2767",
+            "service": "http",
+            "product": "apache httpd",
+            "version": "2.4.62",
+            "port": "80",
+            "cpe": "cpe:/a:apache:http_server:2.4.62",
+            "search_method": "nmap_cpe",
+            "description": "mod_perl 2.0 through 2.0.10 allows attackers to execute arbitrary Perl code by placing it in a user-owned .htaccess file, because (contrary to the documentation) there is no configuration option that "
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2018-1312",
+            "service": "http",
+            "product": "apache httpd",
+            "version": "2.4.62",
+            "port": "80",
+            "cpe": "cpe:/a:apache:http_server:2.4.62",
+            "search_method": "nmap_cpe",
+            "description": "In Apache httpd 2.2.0 to 2.4.29, when generating an HTTP Digest authentication challenge, the nonce sent to prevent reply attacks was not correctly generated using a pseudo-random seed. In a cluster o"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2017-7679",
+            "service": "http",
+            "product": "apache httpd",
+            "version": "2.4.62",
+            "port": "80",
+            "cpe": "cpe:/a:apache:http_server:2.4.62",
+            "search_method": "nmap_cpe",
+            "description": "In Apache httpd 2.2.x before 2.2.33 and 2.4.x before 2.4.26, mod_mime can read one byte past the end of a buffer when sending a malicious Content-Type response header."
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2017-3169",
+            "service": "http",
+            "product": "apache httpd",
+            "version": "2.4.62",
+            "port": "80",
+            "cpe": "cpe:/a:apache:http_server:2.4.62",
+            "search_method": "nmap_cpe",
+            "description": "In Apache httpd 2.2.x before 2.2.33 and 2.4.x before 2.4.26, mod_ssl may dereference a NULL pointer when third-party modules call ap_hook_process_connection() during an HTTP request to an HTTPS port."
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2017-3167",
+            "service": "http",
+            "product": "apache httpd",
+            "version": "2.4.62",
+            "port": "80",
+            "cpe": "cpe:/a:apache:http_server:2.4.62",
+            "search_method": "nmap_cpe",
+            "description": "In Apache httpd 2.2.x before 2.2.33 and 2.4.x before 2.4.26, use of the ap_get_basic_auth_pw() by third-party modules outside of the authentication phase may lead to authentication requirements being "
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2001-0766",
+            "service": "http",
+            "product": "apache httpd",
+            "version": "2.4.62",
+            "port": "80",
+            "cpe": "cpe:/a:apache:http_server:2.4.62",
+            "search_method": "nmap_cpe",
+            "description": "Apache on MacOS X Client 10.0.3 with the HFS+ file system allows remote attackers to bypass access restrictions via a URL that contains some characters whose case is not matched by Apache's filters."
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2022-28615",
+            "service": "http",
+            "product": "apache httpd",
+            "version": "2.4.62",
+            "port": "80",
+            "cpe": "cpe:/a:apache:http_server:2.4.62",
+            "search_method": "nmap_cpe",
+            "description": "Apache HTTP Server 2.4.53 and earlier may crash or disclose information due to a read beyond bounds in ap_strcmp_match() when provided with an extremely large input buffer. While no code distributed w"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2022-22721",
+            "service": "http",
+            "product": "apache httpd",
+            "version": "2.4.62",
+            "port": "80",
+            "cpe": "cpe:/a:apache:http_server:2.4.62",
+            "search_method": "nmap_cpe",
+            "description": "If LimitXMLRequestBody is set to allow request bodies larger than 350MB (defaults to 1M) on 32 bit systems an integer overflow happens which later causes out of bounds writes. This issue affects Apach"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2019-10082",
+            "service": "http",
+            "product": "apache httpd",
+            "version": "2.4.62",
+            "port": "80",
+            "cpe": "cpe:/a:apache:http_server:2.4.62",
+            "search_method": "nmap_cpe",
+            "description": "In Apache HTTP Server 2.4.18-2.4.39, using fuzzed network input, the http/2 session handling could be made to read memory after being freed, during connection shutdown."
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2017-9788",
+            "service": "http",
+            "product": "apache httpd",
+            "version": "2.4.62",
+            "port": "80",
+            "cpe": "cpe:/a:apache:http_server:2.4.62",
+            "search_method": "nmap_cpe",
+            "description": "In Apache httpd before 2.2.34 and 2.4.x before 2.4.27, the value placeholder in [Proxy-]Authorization headers of type 'Digest' was not initialized or reset before or between successive key=value assig"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2022-36760",
+            "service": "http",
+            "product": "apache httpd",
+            "version": "2.4.62",
+            "port": "80",
+            "cpe": "cpe:/a:apache:http_server:2.4.62",
+            "search_method": "nmap_cpe",
+            "description": "Inconsistent Interpretation of HTTP Requests ('HTTP Request Smuggling') vulnerability in mod_proxy_ajp of Apache HTTP Server allows an attacker to smuggle requests to the AJP server it forwards reques"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2021-40438",
+            "service": "http",
+            "product": "apache httpd",
+            "version": "2.4.62",
+            "port": "80",
+            "cpe": "cpe:/a:apache:http_server:2.4.62",
+            "search_method": "nmap_cpe",
+            "description": "A crafted request uri-path can cause mod_proxy to forward the request to an origin server choosen by the remote user. This issue affects Apache HTTP Server 2.4.48 and earlier."
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2021-44224",
+            "service": "http",
+            "product": "apache httpd",
+            "version": "2.4.62",
+            "port": "80",
+            "cpe": "cpe:/a:apache:http_server:2.4.62",
+            "search_method": "nmap_cpe",
+            "description": "A crafted URI sent to httpd configured as a forward proxy (ProxyRequests on) can cause a crash (NULL pointer dereference) or, for configurations mixing forward and reverse proxy declarations, can allo"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2017-15715",
+            "service": "http",
+            "product": "apache httpd",
+            "version": "2.4.62",
+            "port": "80",
+            "cpe": "cpe:/a:apache:http_server:2.4.62",
+            "search_method": "nmap_cpe",
+            "description": "In Apache httpd 2.4.0 to 2.4.29, the expression specified in <FilesMatch> could match '$' to a newline character in a malicious filename, rather than matching only the end of the filename. This could "
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2016-5387",
+            "service": "http",
+            "product": "apache httpd",
+            "version": "2.4.62",
+            "port": "80",
+            "cpe": "cpe:/a:apache:http_server:2.4.62",
+            "search_method": "nmap_cpe",
+            "description": "The Apache HTTP Server through 2.4.23 follows RFC 3875 section 4.1.18 and therefore does not protect applications from the presence of untrusted client data in the HTTP_PROXY environment variable, whi"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2019-0211",
+            "service": "http",
+            "product": "apache httpd",
+            "version": "2.4.62",
+            "port": "80",
+            "cpe": "cpe:/a:apache:http_server:2.4.62",
+            "search_method": "nmap_cpe",
+            "description": "In Apache HTTP Server 2.4 releases 2.4.17 to 2.4.38, with MPM event, worker or prefork, code executing in less-privileged child processes or threads (including scripts executed by an in-process script"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2004-0940",
+            "service": "http",
+            "product": "apache httpd",
+            "version": "2.4.62",
+            "port": "80",
+            "cpe": "cpe:/a:apache:http_server:2.4.62",
+            "search_method": "nmap_cpe",
+            "description": "Buffer overflow in the get_tag function in mod_include for Apache 1.3.x to 1.3.32 allows local users who can create SSI documents to execute arbitrary code as the apache user via SSI (XSSI) documents "
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2004-0747",
+            "service": "http",
+            "product": "apache httpd",
+            "version": "2.4.62",
+            "port": "80",
+            "cpe": "cpe:/a:apache:http_server:2.4.62",
+            "search_method": "nmap_cpe",
+            "description": "Buffer overflow in Apache 2.0.50 and earlier allows local users to gain apache privileges via a .htaccess file that causes the overflow during expansion of environment variables."
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2024-40898",
+            "service": "http",
+            "product": "apache httpd",
+            "version": "2.4.62",
+            "port": "80",
+            "cpe": "cpe:/a:apache:http_server:2.4.62",
+            "search_method": "nmap_cpe",
+            "description": "SSRF in Apache HTTP Server on Windows with mod_rewrite in server/vhost context, allows to potentially leak NTML hashes to a malicious server via SSRF and malicious requests.\n\nUsers are recommended to "
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2016-9843",
+            "service": "mysql",
+            "product": "mariadb",
+            "version": "",
+            "port": "3306",
+            "cpe": "cpe:/a:mariadb:mariadb",
+            "search_method": "nmap_cpe",
+            "description": "The crc32_big function in crc32.c in zlib 1.2.8 might allow context-dependent attackers to have unspecified impact via vectors involving big-endian CRC calculation."
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2016-6662",
+            "service": "mysql",
+            "product": "mariadb",
+            "version": "",
+            "port": "3306",
+            "cpe": "cpe:/a:mariadb:mariadb",
+            "search_method": "nmap_cpe",
+            "description": "Oracle MySQL through 5.5.52, 5.6.x through 5.6.33, and 5.7.x through 5.7.15; MariaDB before 5.5.51, 10.0.x before 10.0.27, and 10.1.x before 10.1.17; and Percona Server before 5.5.51-38.1, 5.6.x befor"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2020-15180",
+            "service": "mysql",
+            "product": "mariadb",
+            "version": "",
+            "port": "3306",
+            "cpe": "cpe:/a:mariadb:mariadb",
+            "search_method": "nmap_cpe",
+            "description": "A flaw was found in the mysql-wsrep component of mariadb. Lack of input sanitization in `wsrep_sst_method` allows for command injection that can be exploited by a remote attacker to execute arbitrary "
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2017-15365",
+            "service": "mysql",
+            "product": "mariadb",
+            "version": "",
+            "port": "3306",
+            "cpe": "cpe:/a:mariadb:mariadb",
+            "search_method": "nmap_cpe",
+            "description": "sql/event_data_objects.cc in MariaDB before 10.1.30 and 10.2.x before 10.2.10 and Percona XtraDB Cluster before 5.6.37-26.21-3 and 5.7.x before 5.7.19-29.22-3 allows remote authenticated users with SQ"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2016-3477",
+            "service": "mysql",
+            "product": "mariadb",
+            "version": "",
+            "port": "3306",
+            "cpe": "cpe:/a:mariadb:mariadb",
+            "search_method": "nmap_cpe",
+            "description": "Unspecified vulnerability in Oracle MySQL 5.5.49 and earlier, 5.6.30 and earlier, and 5.7.12 and earlier and MariaDB before 5.5.50, 10.0.x before 10.0.26, and 10.1.x before 10.1.15 allows local users "
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2022-24052",
+            "service": "mysql",
+            "product": "mariadb",
+            "version": "",
+            "port": "3306",
+            "cpe": "cpe:/a:mariadb:mariadb",
+            "search_method": "nmap_cpe",
+            "description": "MariaDB CONNECT Storage Engine Heap-based Buffer Overflow Privilege Escalation Vulnerability. This vulnerability allows local attackers to escalate privileges on affected installations of MariaDB. Aut"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2022-24051",
+            "service": "mysql",
+            "product": "mariadb",
+            "version": "",
+            "port": "3306",
+            "cpe": "cpe:/a:mariadb:mariadb",
+            "search_method": "nmap_cpe",
+            "description": "MariaDB CONNECT Storage Engine Format String Privilege Escalation Vulnerability. This vulnerability allows local attackers to escalate privileges on affected installations of MariaDB. Authentication i"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2022-24050",
+            "service": "mysql",
+            "product": "mariadb",
+            "version": "",
+            "port": "3306",
+            "cpe": "cpe:/a:mariadb:mariadb",
+            "search_method": "nmap_cpe",
+            "description": "MariaDB CONNECT Storage Engine Use-After-Free Privilege Escalation Vulnerability. This vulnerability allows local attackers to escalate privileges on affected installations of MariaDB. Authentication "
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2022-24048",
+            "service": "mysql",
+            "product": "mariadb",
+            "version": "",
+            "port": "3306",
+            "cpe": "cpe:/a:mariadb:mariadb",
+            "search_method": "nmap_cpe",
+            "description": "MariaDB CONNECT Storage Engine Stack-based Buffer Overflow Privilege Escalation Vulnerability. This vulnerability allows local attackers to escalate privileges on affected installations of MariaDB. Au"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2020-7221",
+            "service": "mysql",
+            "product": "mariadb",
+            "version": "",
+            "port": "3306",
+            "cpe": "cpe:/a:mariadb:mariadb",
+            "search_method": "nmap_cpe",
+            "description": "mysql_install_db in MariaDB 10.4.7 through 10.4.11 allows privilege escalation from the mysql user account to root because chown and chmod are performed unsafely, as demonstrated by a symlink attack o"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2015-2325",
+            "service": "mysql",
+            "product": "mariadb",
+            "version": "",
+            "port": "3306",
+            "cpe": "cpe:/a:mariadb:mariadb",
+            "search_method": "nmap_cpe",
+            "description": "The compile_branch function in PCRE before 8.37 allows context-dependent attackers to compile incorrect code, cause a denial of service (out-of-bounds heap read and crash), or possibly have other unsp"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2017-15945",
+            "service": "mysql",
+            "product": "mariadb",
+            "version": "",
+            "port": "3306",
+            "cpe": "cpe:/a:mariadb:mariadb",
+            "search_method": "nmap_cpe",
+            "description": "The installation scripts in the Gentoo dev-db/mysql, dev-db/mariadb, dev-db/percona-server, dev-db/mysql-cluster, and dev-db/mariadb-galera packages before 2017-09-29 have chown calls for user-writabl"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2018-2755",
+            "service": "mysql",
+            "product": "mariadb",
+            "version": "",
+            "port": "3306",
+            "cpe": "cpe:/a:mariadb:mariadb",
+            "search_method": "nmap_cpe",
+            "description": "Vulnerability in the MySQL Server component of Oracle MySQL (subcomponent: Server: Replication). Supported versions that are affected are 5.5.59 and prior, 5.6.39 and prior and 5.7.21 and prior. Diffi"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2017-3309",
+            "service": "mysql",
+            "product": "mariadb",
+            "version": "",
+            "port": "3306",
+            "cpe": "cpe:/a:mariadb:mariadb",
+            "search_method": "nmap_cpe",
+            "description": "Vulnerability in the MySQL Server component of Oracle MySQL (subcomponent: Server: Optimizer). Supported versions that are affected are 5.5.54 and earlier, 5.6.35 and earlier and 5.7.17 and earlier. E"
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2017-3308",
+            "service": "mysql",
+            "product": "mariadb",
+            "version": "",
+            "port": "3306",
+            "cpe": "cpe:/a:mariadb:mariadb",
+            "search_method": "nmap_cpe",
+            "description": "Vulnerability in the MySQL Server component of Oracle MySQL (subcomponent: Server: DML). Supported versions that are affected are 5.5.54 and earlier, 5.6.35 and earlier and 5.7.17 and earlier. Easily "
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2023-5157",
+            "service": "mysql",
+            "product": "mariadb",
+            "version": "",
+            "port": "3306",
+            "cpe": "cpe:/a:mariadb:mariadb",
+            "search_method": "nmap_cpe",
+            "description": "A vulnerability was found in MariaDB. An OpenVAS port scan on ports 3306 and 4567 allows a malicious remote client to cause a denial of service."
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2022-32091",
+            "service": "mysql",
+            "product": "mariadb",
+            "version": "",
+            "port": "3306",
+            "cpe": "cpe:/a:mariadb:mariadb",
+            "search_method": "nmap_cpe",
+            "description": "MariaDB v10.7 was discovered to contain an use-after-poison in in __interceptor_memset at /libsanitizer/sanitizer_common/sanitizer_common_interceptors.inc."
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2022-32089",
+            "service": "mysql",
+            "product": "mariadb",
+            "version": "",
+            "port": "3306",
+            "cpe": "cpe:/a:mariadb:mariadb",
+            "search_method": "nmap_cpe",
+            "description": "MariaDB v10.5 to v10.7 was discovered to contain a segmentation fault via the component st_select_lex_unit::exclude_level."
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2022-32088",
+            "service": "mysql",
+            "product": "mariadb",
+            "version": "",
+            "port": "3306",
+            "cpe": "cpe:/a:mariadb:mariadb",
+            "search_method": "nmap_cpe",
+            "description": "MariaDB v10.2 to v10.7 was discovered to contain a segmentation fault via the component Exec_time_tracker::get_loops/Filesort_tracker::report_use/filesort."
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2022-32087",
+            "service": "mysql",
+            "product": "mariadb",
+            "version": "",
+            "port": "3306",
+            "cpe": "cpe:/a:mariadb:mariadb",
+            "search_method": "nmap_cpe",
+            "description": "MariaDB v10.2 to v10.7 was discovered to contain a segmentation fault via the component Item_args::walk_args."
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2022-32086",
+            "service": "mysql",
+            "product": "mariadb",
+            "version": "",
+            "port": "3306",
+            "cpe": "cpe:/a:mariadb:mariadb",
+            "search_method": "nmap_cpe",
+            "description": "MariaDB v10.4 to v10.8 was discovered to contain a segmentation fault via the component Item_field::fix_outer_field."
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2022-32085",
+            "service": "mysql",
+            "product": "mariadb",
+            "version": "",
+            "port": "3306",
+            "cpe": "cpe:/a:mariadb:mariadb",
+            "search_method": "nmap_cpe",
+            "description": "MariaDB v10.2 to v10.7 was discovered to contain a segmentation fault via the component Item_func_in::cleanup/Item::cleanup_processor."
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2022-32084",
+            "service": "mysql",
+            "product": "mariadb",
+            "version": "",
+            "port": "3306",
+            "cpe": "cpe:/a:mariadb:mariadb",
+            "search_method": "nmap_cpe",
+            "description": "MariaDB v10.2 to v10.7 was discovered to contain a segmentation fault via the component sub_select."
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2022-32083",
+            "service": "mysql",
+            "product": "mariadb",
+            "version": "",
+            "port": "3306",
+            "cpe": "cpe:/a:mariadb:mariadb",
+            "search_method": "nmap_cpe",
+            "description": "MariaDB v10.2 to v10.6.1 was discovered to contain a segmentation fault via the component Item_subselect::init_expr_cache_tracker."
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2022-32082",
+            "service": "mysql",
+            "product": "mariadb",
+            "version": "",
+            "port": "3306",
+            "cpe": "cpe:/a:mariadb:mariadb",
+            "search_method": "nmap_cpe",
+            "description": "MariaDB v10.5 to v10.7 was discovered to contain an assertion failure at table->get_ref_count() == 0 in dict0dict.cc."
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2022-32081",
+            "service": "mysql",
+            "product": "mariadb",
+            "version": "",
+            "port": "3306",
+            "cpe": "cpe:/a:mariadb:mariadb",
+            "search_method": "nmap_cpe",
+            "description": "MariaDB v10.4 to v10.7 was discovered to contain an use-after-poison in prepare_inplace_add_virtual at /storage/innobase/handler/handler0alter.cc."
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2022-27457",
+            "service": "mysql",
+            "product": "mariadb",
+            "version": "",
+            "port": "3306",
+            "cpe": "cpe:/a:mariadb:mariadb",
+            "search_method": "nmap_cpe",
+            "description": "MariaDB Server v10.6.3 and below was discovered to contain an use-after-free in the component my_mb_wc_latin1 at /strings/ctype-latin1.c."
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2022-27456",
+            "service": "mysql",
+            "product": "mariadb",
+            "version": "",
+            "port": "3306",
+            "cpe": "cpe:/a:mariadb:mariadb",
+            "search_method": "nmap_cpe",
+            "description": "MariaDB Server v10.6.3 and below was discovered to contain an use-after-free in the component VDec::VDec at /sql/sql_type.cc."
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2022-27455",
+            "service": "mysql",
+            "product": "mariadb",
+            "version": "",
+            "port": "3306",
+            "cpe": "cpe:/a:mariadb:mariadb",
+            "search_method": "nmap_cpe",
+            "description": "MariaDB Server v10.6.3 and below was discovered to contain an use-after-free in the component my_wildcmp_8bit_impl at /strings/ctype-simple.c."
+          },
+          {
+            "source": "cti/service",
+            "cve_id": "CVE-2022-27452",
+            "service": "mysql",
+            "product": "mariadb",
+            "version": "",
+            "port": "3306",
+            "cpe": "cpe:/a:mariadb:mariadb",
+            "search_method": "nmap_cpe",
+            "description": "MariaDB Server v10.9 and below was discovered to contain a segmentation fault via the component sql/item_cmpfunc.cc."
+          }
+        ],
+        "cti_os": [
+          {
+            "source": "cti/os",
+            "cve_id": "CVE-2024-42256",
+            "os": "Linux 2.6.32",
+            "version": "100",
+            "cpe": "cpe:2.3:o:linux:linux_2.6.32:100:*:*:*:*:*:*:*",
+            "description": "In the Linux kernel, the following vulnerability has been resolved:\n\ncifs: Fix server re-repick on subrequest retry\n\nWhen a subrequest is marked for needing retry, netfs will call\ncifs_prepare_write()"
+          },
+          {
+            "source": "cti/os",
+            "cve_id": "CVE-2024-42154",
+            "os": "Linux 2.6.32",
+            "version": "100",
+            "cpe": "cpe:2.3:o:linux:linux_2.6.32:100:*:*:*:*:*:*:*",
+            "description": "In the Linux kernel, the following vulnerability has been resolved:\n\ntcp_metrics: validate source addr length\n\nI don't see anything checking that TCP_METRICS_ATTR_SADDR_IPV4\nis at least 4 bytes long, "
+          },
+          {
+            "source": "cti/os",
+            "cve_id": "CVE-2023-38429",
+            "os": "Linux 2.6.32",
+            "version": "100",
+            "cpe": "cpe:2.3:o:linux:linux_2.6.32:100:*:*:*:*:*:*:*",
+            "description": "An issue was discovered in the Linux kernel before 6.3.4. fs/ksmbd/connection.c in ksmbd has an off-by-one error in memory allocation (because of ksmbd_smb2_check_message) that may lead to out-of-boun"
+          },
+          {
+            "source": "cti/os",
+            "cve_id": "CVE-2023-38427",
+            "os": "Linux 2.6.32",
+            "version": "100",
+            "cpe": "cpe:2.3:o:linux:linux_2.6.32:100:*:*:*:*:*:*:*",
+            "description": "An issue was discovered in the Linux kernel before 6.3.8. fs/smb/server/smb2pdu.c in ksmbd has an integer underflow and out-of-bounds read in deassemble_neg_contexts."
+          },
+          {
+            "source": "cti/os",
+            "cve_id": "CVE-2022-47939",
+            "os": "Linux 2.6.32",
+            "version": "100",
+            "cpe": "cpe:2.3:o:linux:linux_2.6.32:100:*:*:*:*:*:*:*",
+            "description": "An issue was discovered in ksmbd in the Linux kernel 5.15 through 5.19 before 5.19.2. fs/ksmbd/smb2pdu.c has a use-after-free and OOPS for SMB2_TREE_DISCONNECT."
+          },
+          {
+            "source": "cti/os",
+            "cve_id": "CVE-2021-3773",
+            "os": "Linux 2.6.32",
+            "version": "100",
+            "cpe": "cpe:2.3:o:linux:linux_2.6.32:100:*:*:*:*:*:*:*",
+            "description": "A flaw in netfilter could allow a network-connected attacker to infer openvpn connection endpoint information for further use in traditional network attacks."
+          },
+          {
+            "source": "cti/os",
+            "cve_id": "CVE-2021-43267",
+            "os": "Linux 2.6.32",
+            "version": "100",
+            "cpe": "cpe:2.3:o:linux:linux_2.6.32:100:*:*:*:*:*:*:*",
+            "description": "An issue was discovered in net/tipc/crypto.c in the Linux kernel before 5.14.16. The Transparent Inter-Process Communication (TIPC) functionality allows remote attackers to exploit insufficient valida"
+          },
+          {
+            "source": "cti/os",
+            "cve_id": "CVE-2019-14901",
+            "os": "Linux 2.6.32",
+            "version": "100",
+            "cpe": "cpe:2.3:o:linux:linux_2.6.32:100:*:*:*:*:*:*:*",
+            "description": "A heap overflow flaw was found in the Linux kernel, all versions 3.x.x and 4.x.x before 4.18.0, in Marvell WiFi chip driver. The vulnerability allows a remote attacker to cause a system crash, resulti"
+          },
+          {
+            "source": "cti/os",
+            "cve_id": "CVE-2019-14897",
+            "os": "Linux 2.6.32",
+            "version": "100",
+            "cpe": "cpe:2.3:o:linux:linux_2.6.32:100:*:*:*:*:*:*:*",
+            "description": "A stack-based buffer overflow was found in the Linux kernel, version kernel-2.6.32, in Marvell WiFi chip driver. An attacker is able to cause a denial of service (system crash) or, possibly execute ar"
+          },
+          {
+            "source": "cti/os",
+            "cve_id": "CVE-2019-14895",
+            "os": "Linux 2.6.32",
+            "version": "100",
+            "cpe": "cpe:2.3:o:linux:linux_2.6.32:100:*:*:*:*:*:*:*",
+            "description": "A heap-based buffer overflow was discovered in the Linux kernel, all versions 3.x.x and 4.x.x before 4.18.0, in Marvell WiFi chip driver. The flaw could occur when the station attempts a connection ne"
+          },
+          {
+            "source": "cti/os",
+            "cve_id": "CVE-2019-14896",
+            "os": "Linux 2.6.32",
+            "version": "100",
+            "cpe": "cpe:2.3:o:linux:linux_2.6.32:100:*:*:*:*:*:*:*",
+            "description": "A heap-based buffer overflow vulnerability was found in the Linux kernel, version kernel-2.6.32, in Marvell WiFi chip driver. A remote attacker could cause a denial of service (system crash) or, possi"
+          },
+          {
+            "source": "cti/os",
+            "cve_id": "CVE-2019-18814",
+            "os": "Linux 2.6.32",
+            "version": "100",
+            "cpe": "cpe:2.3:o:linux:linux_2.6.32:100:*:*:*:*:*:*:*",
+            "description": "An issue was discovered in the Linux kernel through 5.3.9. There is a use-after-free when aa_label_parse() fails in aa_audit_rule_init() in security/apparmor/audit.c."
+          },
+          {
+            "source": "cti/os",
+            "cve_id": "CVE-2019-18805",
+            "os": "Linux 2.6.32",
+            "version": "100",
+            "cpe": "cpe:2.3:o:linux:linux_2.6.32:100:*:*:*:*:*:*:*",
+            "description": "An issue was discovered in net/ipv4/sysctl_net_ipv4.c in the Linux kernel before 5.0.11. There is a net/ipv4/tcp_input.c signed integer overflow in tcp_ack_update_rtt() when userspace writes a very la"
+          },
+          {
+            "source": "cti/os",
+            "cve_id": "CVE-2019-17133",
+            "os": "Linux 2.6.32",
+            "version": "100",
+            "cpe": "cpe:2.3:o:linux:linux_2.6.32:100:*:*:*:*:*:*:*",
+            "description": "In the Linux kernel through 5.3.2, cfg80211_mgd_wext_giwessid in net/wireless/wext-sme.c does not reject a long SSID IE, leading to a Buffer Overflow."
+          },
+          {
+            "source": "cti/os",
+            "cve_id": "CVE-2019-16746",
+            "os": "Linux 2.6.32",
+            "version": "100",
+            "cpe": "cpe:2.3:o:linux:linux_2.6.32:100:*:*:*:*:*:*:*",
+            "description": "An issue was discovered in net/wireless/nl80211.c in the Linux kernel through 5.2.17. It does not check the length of variable elements in a beacon head, leading to a buffer overflow."
+          },
+          {
+            "source": "cti/os",
+            "cve_id": "CVE-2019-15505",
+            "os": "Linux 2.6.32",
+            "version": "100",
+            "cpe": "cpe:2.3:o:linux:linux_2.6.32:100:*:*:*:*:*:*:*",
+            "description": "drivers/media/usb/dvb-usb/technisat-usb2.c in the Linux kernel through 5.2.9 has an out-of-bounds read via crafted USB device traffic (which may be remote via usbip or usbredir)."
+          },
+          {
+            "source": "cti/os",
+            "cve_id": "CVE-2019-15504",
+            "os": "Linux 2.6.32",
+            "version": "100",
+            "cpe": "cpe:2.3:o:linux:linux_2.6.32:100:*:*:*:*:*:*:*",
+            "description": "drivers/net/wireless/rsi/rsi_91x_usb.c in the Linux kernel through 5.2.9 has a Double Free via crafted USB device traffic (which may be remote via usbip or usbredir)."
+          },
+          {
+            "source": "cti/os",
+            "cve_id": "CVE-2018-20961",
+            "os": "Linux 2.6.32",
+            "version": "100",
+            "cpe": "cpe:2.3:o:linux:linux_2.6.32:100:*:*:*:*:*:*:*",
+            "description": "In the Linux kernel before 4.16.4, a double free vulnerability in the f_midi_set_alt function of drivers/usb/gadget/function/f_midi.c in the f_midi driver may allow attackers to cause a denial of serv"
+          },
+          {
+            "source": "cti/os",
+            "cve_id": "CVE-2017-18379",
+            "os": "Linux 2.6.32",
+            "version": "100",
+            "cpe": "cpe:2.3:o:linux:linux_2.6.32:100:*:*:*:*:*:*:*",
+            "description": "In the Linux kernel before 4.14, an out of boundary access happened in drivers/nvme/target/fc.c."
+          },
+          {
+            "source": "cti/os",
+            "cve_id": "CVE-2016-10764",
+            "os": "Linux 2.6.32",
+            "version": "100",
+            "cpe": "cpe:2.3:o:linux:linux_2.6.32:100:*:*:*:*:*:*:*",
+            "description": "In the Linux kernel before 4.9.6, there is an off by one in the drivers/mtd/spi-nor/cadence-quadspi.c cqspi_setup_flash() function. There are CQSPI_MAX_CHIPSELECT elements in the ->f_pdata array so th"
+          },
+          {
+            "source": "cti/os",
+            "cve_id": "CVE-2012-6712",
+            "os": "Linux 2.6.32",
+            "version": "100",
+            "cpe": "cpe:2.3:o:linux:linux_2.6.32:100:*:*:*:*:*:*:*",
+            "description": "In the Linux kernel before 3.4, a buffer overflow occurs in drivers/net/wireless/iwlwifi/iwl-agn-sta.c, which will cause at least memory corruption."
+          },
+          {
+            "source": "cti/os",
+            "cve_id": "CVE-2011-5327",
+            "os": "Linux 2.6.32",
+            "version": "100",
+            "cpe": "cpe:2.3:o:linux:linux_2.6.32:100:*:*:*:*:*:*:*",
+            "description": "In the Linux kernel before 3.1, an off by one in the drivers/target/loopback/tcm_loop.c tcm_loop_make_naa_tpg() function could result in at least memory corruption."
+          },
+          {
+            "source": "cti/os",
+            "cve_id": "CVE-2007-6762",
+            "os": "Linux 2.6.32",
+            "version": "100",
+            "cpe": "cpe:2.3:o:linux:linux_2.6.32:100:*:*:*:*:*:*:*",
+            "description": "In the Linux kernel before 2.6.20, there is an off-by-one bug in net/netlabel/netlabel_cipso_v4.c where it is possible to overflow the doi_def->tags[] array."
+          },
+          {
+            "source": "cti/os",
+            "cve_id": "CVE-2019-10126",
+            "os": "Linux 2.6.32",
+            "version": "100",
+            "cpe": "cpe:2.3:o:linux:linux_2.6.32:100:*:*:*:*:*:*:*",
+            "description": "A flaw was found in the Linux kernel. A heap based buffer overflow in mwifiex_uap_parse_tail_ies function in drivers/net/wireless/marvell/mwifiex/ie.c might lead to memory corruption and possibly othe"
+          },
+          {
+            "source": "cti/os",
+            "cve_id": "CVE-2019-11683",
+            "os": "Linux 2.6.32",
+            "version": "100",
+            "cpe": "cpe:2.3:o:linux:linux_2.6.32:100:*:*:*:*:*:*:*",
+            "description": "udp_gro_receive_segment in net/ipv4/udp_offload.c in the Linux kernel 5.x before 5.0.13 allows remote attackers to cause a denial of service (slab-out-of-bounds memory corruption) or possibly have uns"
+          },
+          {
+            "source": "cti/os",
+            "cve_id": "CVE-2019-10125",
+            "os": "Linux 2.6.32",
+            "version": "100",
+            "cpe": "cpe:2.3:o:linux:linux_2.6.32:100:*:*:*:*:*:*:*",
+            "description": "An issue was discovered in aio_poll() in fs/aio.c in the Linux kernel through 5.0.4. A file may be released by aio_poll_wake() if an expected event is triggered immediately (e.g., by the close of a pa"
+          },
+          {
+            "source": "cti/os",
+            "cve_id": "CVE-2018-20784",
+            "os": "Linux 2.6.32",
+            "version": "100",
+            "cpe": "cpe:2.3:o:linux:linux_2.6.32:100:*:*:*:*:*:*:*",
+            "description": "In the Linux kernel before 4.20.2, kernel/sched/fair.c mishandles leaf cfs_rq's, which allows attackers to cause a denial of service (infinite loop in update_blocked_averages) or possibly have unspeci"
+          },
+          {
+            "source": "cti/os",
+            "cve_id": "CVE-2018-12714",
+            "os": "Linux 2.6.32",
+            "version": "100",
+            "cpe": "cpe:2.3:o:linux:linux_2.6.32:100:*:*:*:*:*:*:*",
+            "description": "An issue was discovered in the Linux kernel through 4.17.2. The filter parsing in kernel/trace/trace_events_filter.c could be called with no filter, which is an N=0 case when it expected at least one "
+          },
+          {
+            "source": "cti/os",
+            "cve_id": "CVE-2017-18174",
+            "os": "Linux 2.6.32",
+            "version": "100",
+            "cpe": "cpe:2.3:o:linux:linux_2.6.32:100:*:*:*:*:*:*:*",
+            "description": "In the Linux kernel before 4.7, the amd_gpio_remove function in drivers/pinctrl/pinctrl-amd.c calls the pinctrl_unregister function, leading to a double free."
+          },
+          {
+            "source": "cti/os",
+            "cve_id": "CVE-2018-5703",
+            "os": "Linux 2.6.32",
+            "version": "100",
+            "cpe": "cpe:2.3:o:linux:linux_2.6.32:100:*:*:*:*:*:*:*",
+            "description": "The tcp_v6_syn_recv_sock function in net/ipv6/tcp_ipv6.c in the Linux kernel through 4.14.11 allows attackers to cause a denial of service (slab out-of-bounds write) or possibly have unspecified other"
+          }
+        ],
+        "cti_hardware": []
+      },
+      "summary": {
+        "total_unique_cves": 139,
+        "cves_by_source": {
+          "nmap_vulners": 20,
+          "cti_software": 0,
+          "cti_services": 90,
+          "cti_os": 30,
+          "cti_hardware": 0
+        },
+        "severity": {
+          "critical": 1,
+          "high": 12,
+          "medium": 5,
+          "low": 2
+        },
+        "services_count": 3,
+        "softwares_count": 0
+      }
+    }
+  ],
+  "network_summary": {
+    "total_hosts": 5,
+    "total_cves": 247,
+    "total_services": 7,
+    "hosts_with_cves": 3
+  }
+}
