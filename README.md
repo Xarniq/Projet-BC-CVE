@@ -18,7 +18,7 @@ Outil d'audit de sécurité combinant **Nmap**, **GLPI** et **CVE-Search** pour 
 ## ✨ Fonctionnalités
 
 - **Scan réseau Nmap** : Détection des services, versions et OS
-- **Inventaire GLPI** : Récupération des logiciels installés via FusionInventory
+- **Inventaire GLPI** : Récupération des logiciels installés via l'agent GLPI
 - **Recherche CVE** : Corrélation avec la base CVE-Search locale
 - **Support CIDR** : Scan de plages réseau entières (ex: 192.168.1.0/24)
 - **Dashboard HTML** : Visualisation interactive des résultats
