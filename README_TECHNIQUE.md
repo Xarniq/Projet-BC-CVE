@@ -64,7 +64,7 @@ Deux stacks Docker sont fournies dans le dossier `docker/` :
 | Fichier | Description |
 |---------|-------------|
 | `cve_search-docker-compose.yml` | API CVE-Search + Redis + MongoDB |
-| `glpi-docker-compose.yml` | GLPI + base MariaDB prête pour FusionInventory |
+| `glpi-docker-compose.yml` | GLPI + base MariaDB|
 
 ### Démarrage des services
 
