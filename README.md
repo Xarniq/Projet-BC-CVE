@@ -74,13 +74,12 @@ secu-audit/
 | Docker | 20.x+ | Pour CVE-Search et GLPI |
 | Node.js | 18.x+ | Pour le dashboard web (optionnel) |
 | GLPI | 10.x | Inventaire IT |
-| FusionInventory | - | Agent d'inventaire |
 
 ### Services requis (Docker)
 
 1. **CVE-Search-Docker** : Base de données CVE locale
 2. **GLPI + MariaDB** : Gestion d'inventaire
-3. **FusionInventory Agent** : Sur les machines à inventorier
+3. **GLPI Agent** : Sur les machines à inventorier
 
 ---
 
@@ -127,10 +126,10 @@ docker compose -f glpi-docker-compose.yml up -d
 # Attendre ~10 min pour le chargement initial des CVE
 ```
 
-### 4. Configurer GLPI avec FusionInventory
+### 4. Configurer GLPI en mode inventaire parc
 
 Voir [GLPI Documentation](https://help.glpi-project.org/documentation/fr)
-Voir [FusionInventory Documentation](https://documentation.fusioninventory.org/)
+Voir [GLPI Agent Documentation](https://help.glpi-project.org/faq/glpi/glpi)
 
 ---
 
